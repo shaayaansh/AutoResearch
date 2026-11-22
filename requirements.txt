@@ -7,3 +7,5 @@ numpy
 openai>=1.99
 pydantic>=2
 tqdm
+torch
+sentence-transformers>=3
