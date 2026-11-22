@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+data/raw/
+.env
+data/index/
+runs/
+
+# secrets
+openai_secrect.txt
+openai_secret.txt
+*secret*.txt
+_to_delete/
+.DS_Store

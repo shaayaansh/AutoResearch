@@ -1,0 +1,11 @@
+{"id": "q1", "question": "How is structural similarity in stories captured? How is it defined and what embedding models excel at it?"}
+{"id": "q2", "question": "How do we build personalized agentic systems for education? How do we evaluate them?"}
+{"id": "q3", "question": "How do we build deep research agents? How do we evaluate every component of deep research agents?"}
+{"id": "q4", "question": "Where do hallucinations in LLMs come from? Is it in the training data? How can we combat it?"}
+{"id": "q5", "question": "What are the most effective post-training methods for building domain-specific agents?"}
+{"id": "q6", "question": "How are LLMs used to generate political stories or narratives, and how is their capability evaluated?"}
+{"id": "q7", "question": "How do we measure whether stories can be linked back to real individuals or leak private information, and what methods reduce this re-identification risk?"}
+{"id": "q8", "question": "How can knowledge graphs be combined with LLMs to answer complex multi-hop questions?"}
+{"id": "q9", "question": "What recent techniques improve knowledge distillation from large to small language models?"}
+{"id": "q10", "question": "How reliable are LLMs as automatic evaluators of generated text"}
+{"id": "q11", "question": "When should LLM systems rely on long-context models versus retrieval-augmented generation or explicit memory mechanisms?"}
