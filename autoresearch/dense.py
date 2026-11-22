@@ -123,12 +123,23 @@ class DenseIndex:
         return self._model
 
     def embed_query(self, query: str) -> np.ndarray:
+        """A search question: gets bge's retrieval instruction prefix."""
         prefix = BGE_QUERY_INSTRUCTION if "bge" in self.meta["model"].lower() else ""
-        v = self.model.encode([prefix + query], normalize_embeddings=True, convert_to_numpy=True)[0]
+        return self._encode(prefix + query)
+
+    def embed_document(self, text: str) -> np.ndarray:
+        """Document-like text (e.g. a HyDE abstract): embedded exactly like the corpus, no prefix,
+        so the comparison is document-to-document."""
+        return self._encode(text)
+
+    def _encode(self, text: str) -> np.ndarray:
+        v = self.model.encode([text], normalize_embeddings=True, convert_to_numpy=True)[0]
         return v.astype(np.float32)
 
     def search(self, query: str, k: int = 50) -> DenseResult:
-        q = self.embed_query(query)
+        return self.search_vector(self.embed_query(query), k)
+
+    def search_vector(self, q: np.ndarray, k: int = 50) -> DenseResult:
         scores = self.embeddings @ q  # cosine similarity, since both sides are normalized
         k = min(k, len(scores))
         top = np.argpartition(-scores, k - 1)[:k]

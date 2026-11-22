@@ -57,6 +57,14 @@ def cmd_search(args) -> None:
                       **({"component_ranks": h.component_ranks} if hasattr(h, "component_ranks") else {})}
                      for h in hits])
 
+    if "aspects" in diag:  # planner-driven systems: show the plan first
+        print(f"Plan ({diag['n_aspects']} aspects{', cached' if diag['plan_cached'] else ''}):")
+        for a in diag["aspects"]:
+            print(f"  {a['id']} {a['name']}: {a['description']}")
+            print(f"     BM25: {a['bm25_query']}")
+            if a.get("hyde_abstract") and a.get("dense_probe") == "hyde_abstract":
+                print(textwrap.indent(textwrap.fill("HyDE: " + a["hyde_abstract"], 100), "     "))
+        print()
     for h in hits:
         p = corpus.get(h.paper_id)
         extra = f"  {h.component_ranks}" if hasattr(h, "component_ranks") else ""
@@ -74,6 +82,9 @@ def cmd_search(args) -> None:
                     f" · fused list: {diag['fused_from_both']} from both, {diag['fused_bm25_only']} BM25-only,"
                     f" {diag['fused_dense_only']} dense-only")
     print(summary)
+    if "final_coverage_by_aspect" in diag:
+        summary += (f" · per-aspect papers in final list: {diag['final_coverage_by_aspect']}"
+                    f" · planner ${diag['llm_usage']['cost_usd']:.4f}")
     if "term_doc_freq" in diag:
         print("papers containing each term:", diag["term_doc_freq"])
     print(f"trace: {tracer.path}")

@@ -1,0 +1,316 @@
+{
+  "run_id": "20261122-173013-hybrid-k50",
+  "system": "hybrid",
+  "k": 50,
+  "judge_model": "gpt-5.6-luna",
+  "reasoning_effort": "low",
+  "prompt_version": "v1",
+  "relevant_threshold": 4,
+  "queries": {
+    "q1": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 0,
+        "4": 13,
+        "3": 18,
+        "2": 16,
+        "1": 3
+      },
+      "mean_score": 2.82,
+      "n_relevant(>=4)": 13,
+      "P@10": 0.6,
+      "P@20": 0.4,
+      "P@50": 0.26,
+      "question": "How is structural similarity in stories captured? How is it defined and what embedding models excel at it?",
+      "n_cached": 48,
+      "usage": {
+        "input_tokens": 1373,
+        "cached_tokens": 0,
+        "output_tokens": 412,
+        "reasoning_tokens": 205,
+        "calls": 2,
+        "cost_usd": 0.000769
+      },
+      "elapsed_s": 2.5
+    },
+    "q2": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 19,
+        "4": 28,
+        "3": 3,
+        "2": 0,
+        "1": 0
+      },
+      "mean_score": 4.32,
+      "n_relevant(>=4)": 47,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 0.94,
+      "question": "How do we build personalized agentic systems for education? How do we evaluate them?",
+      "n_cached": 50,
+      "usage": {
+        "input_tokens": 0,
+        "cached_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "calls": 0,
+        "cost_usd": 0.0
+      },
+      "elapsed_s": 0.0
+    },
+    "q3": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 33,
+        "4": 17,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "mean_score": 4.66,
+      "n_relevant(>=4)": 50,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 1.0,
+      "question": "How do we build deep research agents? How do we evaluate every component of deep research agents?",
+      "n_cached": 45,
+      "usage": {
+        "input_tokens": 3899,
+        "cached_tokens": 0,
+        "output_tokens": 611,
+        "reasoning_tokens": 0,
+        "calls": 5,
+        "cost_usd": 0.001513
+      },
+      "elapsed_s": 2.2
+    },
+    "q4": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 18,
+        "4": 28,
+        "3": 1,
+        "2": 2,
+        "1": 1
+      },
+      "mean_score": 4.2,
+      "n_relevant(>=4)": 46,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 0.92,
+      "question": "Where do hallucinations in LLMs come from? Is it in the training data? How can we combat it?",
+      "n_cached": 44,
+      "usage": {
+        "input_tokens": 4644,
+        "cached_tokens": 0,
+        "output_tokens": 696,
+        "reasoning_tokens": 0,
+        "calls": 6,
+        "cost_usd": 0.001764
+      },
+      "elapsed_s": 1.9
+    },
+    "q5": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 20,
+        "4": 24,
+        "3": 4,
+        "2": 2,
+        "1": 0
+      },
+      "mean_score": 4.24,
+      "n_relevant(>=4)": 44,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 0.88,
+      "question": "What are the most effective post-training methods for building domain-specific agents?",
+      "n_cached": 48,
+      "usage": {
+        "input_tokens": 1493,
+        "cached_tokens": 0,
+        "output_tokens": 290,
+        "reasoning_tokens": 96,
+        "calls": 2,
+        "cost_usd": 0.000647
+      },
+      "elapsed_s": 2.3
+    },
+    "q6": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 4,
+        "4": 22,
+        "3": 21,
+        "2": 3,
+        "1": 0
+      },
+      "mean_score": 3.54,
+      "n_relevant(>=4)": 26,
+      "P@10": 0.8,
+      "P@20": 0.6,
+      "P@50": 0.52,
+      "question": "How are LLMs used to generate political stories or narratives, and how is their capability evaluated?",
+      "n_cached": 44,
+      "usage": {
+        "input_tokens": 4632,
+        "cached_tokens": 0,
+        "output_tokens": 645,
+        "reasoning_tokens": 0,
+        "calls": 6,
+        "cost_usd": 0.0017
+      },
+      "elapsed_s": 1.8
+    },
+    "q7": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 13,
+        "4": 17,
+        "3": 1,
+        "2": 6,
+        "1": 13
+      },
+      "mean_score": 3.22,
+      "n_relevant(>=4)": 30,
+      "P@10": 1.0,
+      "P@20": 0.75,
+      "P@50": 0.6,
+      "question": "How do we measure whether stories can be linked back to real individuals or leak private information, and what methods reduce this re-identification risk?",
+      "n_cached": 45,
+      "usage": {
+        "input_tokens": 3855,
+        "cached_tokens": 0,
+        "output_tokens": 603,
+        "reasoning_tokens": 0,
+        "calls": 5,
+        "cost_usd": 0.001495
+      },
+      "elapsed_s": 2.0
+    },
+    "q8": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 35,
+        "4": 13,
+        "3": 2,
+        "2": 0,
+        "1": 0
+      },
+      "mean_score": 4.66,
+      "n_relevant(>=4)": 48,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 0.96,
+      "question": "How can knowledge graphs be combined with LLMs to answer complex multi-hop questions?",
+      "n_cached": 44,
+      "usage": {
+        "input_tokens": 4520,
+        "cached_tokens": 0,
+        "output_tokens": 671,
+        "reasoning_tokens": 0,
+        "calls": 6,
+        "cost_usd": 0.001709
+      },
+      "elapsed_s": 2.4
+    },
+    "q9": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 33,
+        "4": 5,
+        "3": 4,
+        "2": 7,
+        "1": 1
+      },
+      "mean_score": 4.24,
+      "n_relevant(>=4)": 38,
+      "P@10": 0.9,
+      "P@20": 0.85,
+      "P@50": 0.76,
+      "question": "What recent techniques improve knowledge distillation from large to small language models?",
+      "n_cached": 47,
+      "usage": {
+        "input_tokens": 2219,
+        "cached_tokens": 0,
+        "output_tokens": 332,
+        "reasoning_tokens": 0,
+        "calls": 3,
+        "cost_usd": 0.000842
+      },
+      "elapsed_s": 1.7
+    },
+    "q10": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 25,
+        "4": 8,
+        "3": 7,
+        "2": 9,
+        "1": 1
+      },
+      "mean_score": 3.94,
+      "n_relevant(>=4)": 33,
+      "P@10": 0.9,
+      "P@20": 0.65,
+      "P@50": 0.66,
+      "question": "How reliable are LLMs as automatic evaluators of generated text",
+      "n_cached": 48,
+      "usage": {
+        "input_tokens": 1519,
+        "cached_tokens": 0,
+        "output_tokens": 282,
+        "reasoning_tokens": 65,
+        "calls": 2,
+        "cost_usd": 0.000642
+      },
+      "elapsed_s": 2.2
+    },
+    "q11": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 5,
+        "4": 41,
+        "3": 3,
+        "2": 1,
+        "1": 0
+      },
+      "mean_score": 4.0,
+      "n_relevant(>=4)": 46,
+      "P@10": 1.0,
+      "P@20": 0.95,
+      "P@50": 0.92,
+      "question": "When should LLM systems rely on long-context models versus retrieval-augmented generation or explicit memory mechanisms?",
+      "n_cached": 48,
+      "usage": {
+        "input_tokens": 1505,
+        "cached_tokens": 0,
+        "output_tokens": 211,
+        "reasoning_tokens": 0,
+        "calls": 2,
+        "cost_usd": 0.000554
+      },
+      "elapsed_s": 1.5
+    }
+  },
+  "total_usage": {
+    "input_tokens": 29659,
+    "cached_tokens": 0,
+    "output_tokens": 4753,
+    "reasoning_tokens": 366,
+    "calls": 39,
+    "cost_usd": 0.011635
+  }
+}

@@ -48,7 +48,34 @@ def _hybrid():
     return run
 
 
-SYSTEMS: dict[str, Callable] = {"bm25": _bm25, "dense": _dense, "hybrid": _hybrid}
+def _planned(mode: str, planner_model: str = "gpt-5.6-luna"):
+    def make():
+        from .bm25 import TOKENIZER_VERSION, BM25Index
+        from .dense import DenseIndex
+        from .llm import LLM
+        from .planned import PlannedSearcher
+        from .planner import PLANNER_VERSION, Planner
+
+        dense = DenseIndex.load()
+        dense.embed_query("warm-up")
+        planner = Planner(LLM(model=planner_model, reasoning_effort="low"))
+        ps = PlannedSearcher(BM25Index.load(), dense, planner, mode=mode)
+
+        def run(q, k):
+            hits, diag = ps.search(q, k=k)
+            return hits, {"tokenizer_version": TOKENIZER_VERSION, "dense_model": dense.meta["model"],
+                          "planner_version": PLANNER_VERSION, **diag}
+        return run
+    return make
+
+
+SYSTEMS: dict[str, Callable] = {
+    "bm25": _bm25,                    # v0
+    "dense": _dense,                  # v1 component
+    "hybrid": _hybrid,                # v1
+    "aspects": _planned("aspects"),   # v2 ablation: planner aspects, dense uses descriptions
+    "hyde": _planned("hyde"),         # v2: planner aspects, dense uses HyDE abstracts
+}
 
 
 def get_system(name: str):

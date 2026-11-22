@@ -1,0 +1,333 @@
+{
+  "run_id": "20261122-162321-bm25-k50",
+  "system": "bm25",
+  "k": 50,
+  "queries_file": "eval/queries.jsonl",
+  "queries": {
+    "q1": "How is structural similarity in stories captured? How is it defined and what embedding models excel at it?",
+    "q2": "How do we build personalized agentic systems for education? How do we evaluate them?",
+    "q3": "How do we build deep research agents? How do we evaluate every component of deep research agents?",
+    "q4": "Where do hallucinations in LLMs come from? Is it in the training data? How can we combat it?",
+    "q5": "What are the most effective post-training methods for building domain-specific agents?",
+    "q6": "How are LLMs used to generate political stories or narratives, and how is their capability evaluated?",
+    "q7": "How do we measure whether stories can be linked back to real individuals or leak private information, and what methods reduce this re-identification risk?",
+    "q8": "How can knowledge graphs be combined with LLMs to answer complex multi-hop questions?",
+    "q9": "What recent techniques improve knowledge distillation from large to small language models?",
+    "q10": "How reliable are LLMs as automatic evaluators of generated text",
+    "q11": "When should LLM systems rely on long-context models versus retrieval-augmented generation or explicit memory mechanisms?"
+  },
+  "corpus_size": 17933,
+  "per_query": {
+    "q1": {
+      "n_results": 50,
+      "latency_s": 0.0009,
+      "tokenizer_version": "v2",
+      "query_tokens": [
+        "structur",
+        "similar",
+        "stori",
+        "captur",
+        "defin",
+        "embed",
+        "model",
+        "excel"
+      ],
+      "n_matched": 16831,
+      "n_docs": 17933,
+      "term_doc_freq": {
+        "structur": 3740,
+        "similar": 1430,
+        "stori": 137,
+        "captur": 1948,
+        "defin": 655,
+        "embed": 1296,
+        "model": 15883,
+        "excel": 502
+      }
+    },
+    "q2": {
+      "n_results": 50,
+      "latency_s": 0.0005,
+      "tokenizer_version": "v2",
+      "query_tokens": [
+        "build",
+        "person",
+        "agent",
+        "system",
+        "educ",
+        "evalu"
+      ],
+      "n_matched": 11336,
+      "n_docs": 17933,
+      "term_doc_freq": {
+        "build": 1280,
+        "person": 721,
+        "agent": 3016,
+        "system": 3082,
+        "educ": 280,
+        "evalu": 8168
+      }
+    },
+    "q3": {
+      "n_results": 50,
+      "latency_s": 0.0005,
+      "tokenizer_version": "v2",
+      "query_tokens": [
+        "build",
+        "deep",
+        "research",
+        "agent",
+        "evalu",
+        "compon",
+        "deep",
+        "research",
+        "agent"
+      ],
+      "n_matched": 11614,
+      "n_docs": 17933,
+      "term_doc_freq": {
+        "build": 1280,
+        "deep": 487,
+        "research": 2559,
+        "agent": 3016,
+        "evalu": 8168,
+        "compon": 1059
+      }
+    },
+    "q4": {
+      "n_results": 50,
+      "latency_s": 0.0004,
+      "tokenizer_version": "v2",
+      "query_tokens": [
+        "hallucin",
+        "llm",
+        "come",
+        "train",
+        "data",
+        "combat"
+      ],
+      "n_matched": 14821,
+      "n_docs": 17933,
+      "term_doc_freq": {
+        "hallucin": 1025,
+        "llm": 10767,
+        "come": 196,
+        "train": 6729,
+        "data": 5301,
+        "combat": 30
+      }
+    },
+    "q5": {
+      "n_results": 50,
+      "latency_s": 0.0006,
+      "tokenizer_version": "v2",
+      "query_tokens": [
+        "effect",
+        "post",
+        "train",
+        "method",
+        "build",
+        "domain",
+        "specif",
+        "agent"
+      ],
+      "n_matched": 15783,
+      "n_docs": 17933,
+      "term_doc_freq": {
+        "effect": 6485,
+        "post": 1045,
+        "train": 6729,
+        "method": 7460,
+        "build": 1280,
+        "domain": 3197,
+        "specif": 4806,
+        "agent": 3016
+      }
+    },
+    "q6": {
+      "n_results": 50,
+      "latency_s": 0.0005,
+      "tokenizer_version": "v2",
+      "query_tokens": [
+        "llm",
+        "use",
+        "generat",
+        "polit",
+        "stori",
+        "narrat",
+        "capabl",
+        "evalu"
+      ],
+      "n_matched": 16626,
+      "n_docs": 17933,
+      "term_doc_freq": {
+        "llm": 10767,
+        "use": 7650,
+        "generat": 7741,
+        "polit": 154,
+        "stori": 137,
+        "narrat": 339,
+        "capabl": 4007,
+        "evalu": 8168
+      }
+    },
+    "q7": {
+      "n_results": 50,
+      "latency_s": 0.0007,
+      "tokenizer_version": "v2",
+      "query_tokens": [
+        "measur",
+        "stori",
+        "link",
+        "back",
+        "real",
+        "individu",
+        "leak",
+        "privat",
+        "inform",
+        "method",
+        "reduc",
+        "re",
+        "identif",
+        "risk"
+      ],
+      "n_matched": 13520,
+      "n_docs": 17933,
+      "term_doc_freq": {
+        "measur": 1429,
+        "stori": 137,
+        "link": 463,
+        "back": 184,
+        "real": 2749,
+        "individu": 809,
+        "leak": 76,
+        "privat": 147,
+        "inform": 3940,
+        "method": 7460,
+        "reduc": 2936,
+        "re": 408,
+        "identif": 312,
+        "risk": 1007
+      }
+    },
+    "q8": {
+      "n_results": 50,
+      "latency_s": 0.0007,
+      "tokenizer_version": "v2",
+      "query_tokens": [
+        "knowledg",
+        "graph",
+        "combin",
+        "llm",
+        "answer",
+        "complex",
+        "multi",
+        "hop",
+        "question"
+      ],
+      "n_matched": 14992,
+      "n_docs": 17933,
+      "term_doc_freq": {
+        "knowledg": 3387,
+        "graph": 1211,
+        "combin": 1784,
+        "llm": 10767,
+        "answer": 2755,
+        "complex": 3081,
+        "multi": 4235,
+        "hop": 426,
+        "question": 2854
+      }
+    },
+    "q9": {
+      "n_results": 50,
+      "latency_s": 0.0006,
+      "tokenizer_version": "v2",
+      "query_tokens": [
+        "recent",
+        "techniqu",
+        "improv",
+        "knowledg",
+        "distil",
+        "larg",
+        "small",
+        "languag",
+        "model"
+      ],
+      "n_matched": 17363,
+      "n_docs": 17933,
+      "term_doc_freq": {
+        "recent": 2850,
+        "techniqu": 1087,
+        "improv": 7390,
+        "knowledg": 3387,
+        "distil": 834,
+        "larg": 11353,
+        "small": 1104,
+        "languag": 13127,
+        "model": 15883
+      }
+    },
+    "q10": {
+      "n_results": 50,
+      "latency_s": 0.0004,
+      "tokenizer_version": "v2",
+      "query_tokens": [
+        "reliabl",
+        "llm",
+        "automat",
+        "evalu",
+        "generat",
+        "text"
+      ],
+      "n_matched": 16141,
+      "n_docs": 17933,
+      "term_doc_freq": {
+        "reliabl": 2250,
+        "llm": 10767,
+        "automat": 1219,
+        "evalu": 8168,
+        "generat": 7741,
+        "text": 3735
+      }
+    },
+    "q11": {
+      "n_results": 50,
+      "latency_s": 0.0015,
+      "tokenizer_version": "v2",
+      "query_tokens": [
+        "llm",
+        "system",
+        "reli",
+        "long",
+        "context",
+        "model",
+        "versus",
+        "retriev",
+        "augment",
+        "generat",
+        "explicit",
+        "memori",
+        "mechan"
+      ],
+      "n_matched": 17664,
+      "n_docs": 17933,
+      "term_doc_freq": {
+        "llm": 10767,
+        "system": 3082,
+        "reli": 2784,
+        "long": 2047,
+        "context": 3785,
+        "model": 15883,
+        "versus": 181,
+        "retriev": 2806,
+        "augment": 1975,
+        "generat": 7741,
+        "explicit": 1991,
+        "memori": 1189,
+        "mechan": 2256
+      }
+    }
+  },
+  "created_at": "2026-11-22T21:23:21+00:00"
+}

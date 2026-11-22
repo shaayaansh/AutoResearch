@@ -1,0 +1,550 @@
+{"query_id": "q1", "rank": 1, "paper_id": "acl:2026.eacl-long.71", "score": 0.032002, "component_ranks": {"bm25": 2, "dense": 3}}
+{"query_id": "q1", "rank": 2, "paper_id": "acl:2025.acl-long.124", "score": 0.031025, "component_ranks": {"bm25": 3, "dense": 6}}
+{"query_id": "q1", "rank": 3, "paper_id": "acl:2026.emnlp-main.1899", "score": 0.029469, "component_ranks": {"bm25": 11, "dense": 5}}
+{"query_id": "q1", "rank": 4, "paper_id": "acl:2026.findings-emnlp.104", "score": 0.028309, "component_ranks": {"bm25": 6, "dense": 16}}
+{"query_id": "q1", "rank": 5, "paper_id": "acl:2025.emnlp-main.1135", "score": 0.026398, "component_ranks": {"bm25": 24, "dense": 9}}
+{"query_id": "q1", "rank": 6, "paper_id": "acl:2026.acl-long.675", "score": 0.026398, "component_ranks": {"bm25": 9, "dense": 24}}
+{"query_id": "q1", "rank": 7, "paper_id": "acl:2026.acl-long.1578", "score": 0.02632, "component_ranks": {"bm25": 15, "dense": 17}}
+{"query_id": "q1", "rank": 8, "paper_id": "acl:2026.findings-acl.410", "score": 0.026154, "component_ranks": {"bm25": 18, "dense": 15}}
+{"query_id": "q1", "rank": 9, "paper_id": "acl:2026.acl-long.1024", "score": 0.02439, "component_ranks": {"bm25": 22, "dense": 22}}
+{"query_id": "q1", "rank": 10, "paper_id": "acl:2025.findings-acl.1071", "score": 0.024266, "component_ranks": {"bm25": 14, "dense": 33}}
+{"query_id": "q1", "rank": 11, "paper_id": "acl:2026.findings-eacl.95", "score": 0.023697, "component_ranks": {"bm25": 54, "dense": 7}}
+{"query_id": "q1", "rank": 12, "paper_id": "acl:2026.emnlp-main.1807", "score": 0.023323, "component_ranks": {"bm25": 46, "dense": 12}}
+{"query_id": "q1", "rank": 13, "paper_id": "acl:2026.emnlp-main.1697", "score": 0.021825, "component_ranks": {"bm25": 12, "dense": 66}}
+{"query_id": "q1", "rank": 14, "paper_id": "acl:2026.findings-acl.862", "score": 0.021691, "component_ranks": {"bm25": 21, "dense": 47}}
+{"query_id": "q1", "rank": 15, "paper_id": "acl:2025.emnlp-main.381", "score": 0.020548, "component_ranks": {"bm25": 13, "dense": 86}}
+{"query_id": "q1", "rank": 16, "paper_id": "acl:2026.findings-emnlp.1781", "score": 0.020044, "component_ranks": {"bm25": 32, "dense": 49}}
+{"query_id": "q1", "rank": 17, "paper_id": "acl:2025.acl-long.1254", "score": 0.019698, "component_ranks": {"bm25": 17, "dense": 89}}
+{"query_id": "q1", "rank": 18, "paper_id": "acl:2025.findings-acl.1255", "score": 0.019307, "component_ranks": {"bm25": 27, "dense": 68}}
+{"query_id": "q1", "rank": 19, "paper_id": "acl:2026.emnlp-main.1470", "score": 0.019303, "component_ranks": {"bm25": 20, "dense": 87}}
+{"query_id": "q1", "rank": 20, "paper_id": "acl:2026.findings-emnlp.257", "score": 0.019192, "component_ranks": {"bm25": 39, "dense": 50}}
+{"query_id": "q1", "rank": 21, "paper_id": "acl:2026.acl-long.2183", "score": 0.019119, "component_ranks": {"bm25": 31, "dense": 63}}
+{"query_id": "q1", "rank": 22, "paper_id": "acl:2025.acl-long.379", "score": 0.018993, "component_ranks": {"bm25": 23, "dense": 84}}
+{"query_id": "q1", "rank": 23, "paper_id": "acl:2025.findings-emnlp.750", "score": 0.018891, "component_ranks": {"bm25": 58, "dense": 36}}
+{"query_id": "q1", "rank": 24, "paper_id": "acl:2025.findings-acl.82", "score": 0.018722, "component_ranks": {"bm25": 56, "dense": 39}}
+{"query_id": "q1", "rank": 25, "paper_id": "acl:2025.naacl-long.299", "score": 0.018385, "component_ranks": {"bm25": 26, "dense": 88}}
+{"query_id": "q1", "rank": 26, "paper_id": "acl:2025.findings-acl.743", "score": 0.017947, "component_ranks": {"bm25": 33, "dense": 79}}
+{"query_id": "q1", "rank": 27, "paper_id": "acl:2026.emnlp-main.1074", "score": 0.017733, "component_ranks": {"bm25": 28, "dense": 97}}
+{"query_id": "q1", "rank": 28, "paper_id": "acl:2025.findings-acl.914", "score": 0.017412, "component_ranks": {"bm25": 59, "dense": 51}}
+{"query_id": "q1", "rank": 29, "paper_id": "acl:2026.findings-acl.968", "score": 0.016867, "component_ranks": {"bm25": 49, "dense": 70}}
+{"query_id": "q1", "rank": 30, "paper_id": "acl:2026.findings-acl.1361", "score": 0.016653, "component_ranks": {"bm25": 86, "dense": 42}}
+{"query_id": "q1", "rank": 31, "paper_id": "acl:2025.emnlp-main.1290", "score": 0.016504, "component_ranks": {"bm25": 52, "dense": 72}}
+{"query_id": "q1", "rank": 32, "paper_id": "acl:2026.acl-long.1970", "score": 0.016393, "component_ranks": {"dense": 1}}
+{"query_id": "q1", "rank": 33, "paper_id": "acl:2026.emnlp-main.2495", "score": 0.016393, "component_ranks": {"bm25": 1}}
+{"query_id": "q1", "rank": 34, "paper_id": "acl:2026.findings-emnlp.2259", "score": 0.016129, "component_ranks": {"dense": 2}}
+{"query_id": "q1", "rank": 35, "paper_id": "acl:2026.acl-long.898", "score": 0.015625, "component_ranks": {"bm25": 4}}
+{"query_id": "q1", "rank": 36, "paper_id": "acl:2026.findings-emnlp.1821", "score": 0.015625, "component_ranks": {"dense": 4}}
+{"query_id": "q1", "rank": 37, "paper_id": "acl:2026.acl-short.73", "score": 0.015385, "component_ranks": {"bm25": 5}}
+{"query_id": "q1", "rank": 38, "paper_id": "acl:2025.acl-long.1344", "score": 0.014925, "component_ranks": {"bm25": 7}}
+{"query_id": "q1", "rank": 39, "paper_id": "acl:2025.emnlp-main.1748", "score": 0.014706, "component_ranks": {"bm25": 8}}
+{"query_id": "q1", "rank": 40, "paper_id": "acl:2026.eacl-long.370", "score": 0.014706, "component_ranks": {"dense": 8}}
+{"query_id": "q1", "rank": 41, "paper_id": "acl:2025.acl-long.799", "score": 0.014286, "component_ranks": {"bm25": 10}}
+{"query_id": "q1", "rank": 42, "paper_id": "acl:2026.findings-emnlp.2106", "score": 0.014286, "component_ranks": {"dense": 10}}
+{"query_id": "q1", "rank": 43, "paper_id": "acl:2026.emnlp-main.2530", "score": 0.014124, "component_ranks": {"bm25": 100, "dense": 67}}
+{"query_id": "q1", "rank": 44, "paper_id": "acl:2025.emnlp-main.1227", "score": 0.014085, "component_ranks": {"dense": 11}}
+{"query_id": "q1", "rank": 45, "paper_id": "acl:2025.findings-acl.945", "score": 0.013699, "component_ranks": {"dense": 13}}
+{"query_id": "q1", "rank": 46, "paper_id": "acl:2025.findings-acl.1330", "score": 0.013514, "component_ranks": {"dense": 14}}
+{"query_id": "q1", "rank": 47, "paper_id": "acl:2026.emnlp-main.1843", "score": 0.013158, "component_ranks": {"bm25": 16}}
+{"query_id": "q1", "rank": 48, "paper_id": "acl:2025.findings-emnlp.1375", "score": 0.012821, "component_ranks": {"dense": 18}}
+{"query_id": "q1", "rank": 49, "paper_id": "acl:2026.emnlp-main.2433", "score": 0.012658, "component_ranks": {"dense": 19}}
+{"query_id": "q1", "rank": 50, "paper_id": "acl:2026.findings-emnlp.613", "score": 0.012658, "component_ranks": {"bm25": 19}}
+{"query_id": "q2", "rank": 1, "paper_id": "acl:2025.findings-emnlp.312", "score": 0.030835, "component_ranks": {"bm25": 8, "dense": 2}}
+{"query_id": "q2", "rank": 2, "paper_id": "acl:2025.emnlp-main.675", "score": 0.029907, "component_ranks": {"bm25": 14, "dense": 1}}
+{"query_id": "q2", "rank": 3, "paper_id": "acl:2026.findings-eacl.219", "score": 0.029828, "component_ranks": {"bm25": 2, "dense": 13}}
+{"query_id": "q2", "rank": 4, "paper_id": "acl:2025.findings-emnlp.743", "score": 0.02773, "component_ranks": {"bm25": 21, "dense": 5}}
+{"query_id": "q2", "rank": 5, "paper_id": "acl:2026.eacl-long.191", "score": 0.027106, "component_ranks": {"bm25": 18, "dense": 10}}
+{"query_id": "q2", "rank": 6, "paper_id": "acl:2025.naacl-long.520", "score": 0.02643, "component_ranks": {"bm25": 11, "dense": 21}}
+{"query_id": "q2", "rank": 7, "paper_id": "acl:2026.emnlp-main.1008", "score": 0.025729, "component_ranks": {"bm25": 9, "dense": 29}}
+{"query_id": "q2", "rank": 8, "paper_id": "acl:2025.findings-acl.40", "score": 0.025678, "component_ranks": {"bm25": 35, "dense": 6}}
+{"query_id": "q2", "rank": 9, "paper_id": "acl:2025.findings-emnlp.161", "score": 0.025429, "component_ranks": {"bm25": 42, "dense": 4}}
+{"query_id": "q2", "rank": 10, "paper_id": "acl:2026.findings-acl.1315", "score": 0.024752, "component_ranks": {"bm25": 25, "dense": 17}}
+{"query_id": "q2", "rank": 11, "paper_id": "acl:2025.acl-long.1576", "score": 0.024003, "component_ranks": {"bm25": 63, "dense": 3}}
+{"query_id": "q2", "rank": 12, "paper_id": "acl:2026.emnlp-main.1378", "score": 0.023268, "component_ranks": {"bm25": 24, "dense": 28}}
+{"query_id": "q2", "rank": 13, "paper_id": "acl:2025.findings-emnlp.287", "score": 0.022804, "component_ranks": {"bm25": 1, "dense": 96}}
+{"query_id": "q2", "rank": 14, "paper_id": "acl:2025.findings-emnlp.518", "score": 0.022482, "component_ranks": {"bm25": 10, "dense": 62}}
+{"query_id": "q2", "rank": 15, "paper_id": "acl:2026.findings-acl.1080", "score": 0.022398, "component_ranks": {"bm25": 70, "dense": 8}}
+{"query_id": "q2", "rank": 16, "paper_id": "acl:2026.findings-acl.2082", "score": 0.022086, "component_ranks": {"bm25": 52, "dense": 16}}
+{"query_id": "q2", "rank": 17, "paper_id": "acl:2025.findings-acl.927", "score": 0.02188, "component_ranks": {"bm25": 15, "dense": 57}}
+{"query_id": "q2", "rank": 18, "paper_id": "acl:2026.findings-emnlp.148", "score": 0.021332, "component_ranks": {"bm25": 13, "dense": 71}}
+{"query_id": "q2", "rank": 19, "paper_id": "acl:2026.findings-emnlp.770", "score": 0.021169, "component_ranks": {"bm25": 33, "dense": 36}}
+{"query_id": "q2", "rank": 20, "paper_id": "acl:2026.acl-long.53", "score": 0.019833, "component_ranks": {"bm25": 37, "dense": 45}}
+{"query_id": "q2", "rank": 21, "paper_id": "acl:2026.findings-acl.1211", "score": 0.019623, "component_ranks": {"bm25": 87, "dense": 18}}
+{"query_id": "q2", "rank": 22, "paper_id": "acl:2025.findings-acl.642", "score": 0.018234, "component_ranks": {"bm25": 41, "dense": 60}}
+{"query_id": "q2", "rank": 23, "paper_id": "acl:2026.findings-acl.302", "score": 0.01803, "component_ranks": {"bm25": 27, "dense": 93}}
+{"query_id": "q2", "rank": 24, "paper_id": "acl:2026.findings-emnlp.315", "score": 0.017191, "component_ranks": {"bm25": 72, "dense": 44}}
+{"query_id": "q2", "rank": 25, "paper_id": "acl:2026.findings-acl.159", "score": 0.016787, "component_ranks": {"bm25": 76, "dense": 46}}
+{"query_id": "q2", "rank": 26, "paper_id": "acl:2025.findings-naacl.314", "score": 0.015873, "component_ranks": {"bm25": 3}}
+{"query_id": "q2", "rank": 27, "paper_id": "acl:2025.emnlp-main.546", "score": 0.015625, "component_ranks": {"bm25": 4}}
+{"query_id": "q2", "rank": 28, "paper_id": "acl:2025.emnlp-main.885", "score": 0.015385, "component_ranks": {"bm25": 5}}
+{"query_id": "q2", "rank": 29, "paper_id": "acl:2026.acl-long.875", "score": 0.015152, "component_ranks": {"bm25": 6}}
+{"query_id": "q2", "rank": 30, "paper_id": "acl:2025.emnlp-main.1487", "score": 0.014925, "component_ranks": {"bm25": 7}}
+{"query_id": "q2", "rank": 31, "paper_id": "acl:2026.findings-eacl.140", "score": 0.014925, "component_ranks": {"dense": 7}}
+{"query_id": "q2", "rank": 32, "paper_id": "acl:2025.findings-emnlp.11", "score": 0.014493, "component_ranks": {"dense": 9}}
+{"query_id": "q2", "rank": 33, "paper_id": "acl:2026.acl-long.846", "score": 0.014085, "component_ranks": {"dense": 11}}
+{"query_id": "q2", "rank": 34, "paper_id": "acl:2026.acl-long.1236", "score": 0.013889, "component_ranks": {"dense": 12}}
+{"query_id": "q2", "rank": 35, "paper_id": "acl:2026.emnlp-main.1168", "score": 0.013889, "component_ranks": {"bm25": 12}}
+{"query_id": "q2", "rank": 36, "paper_id": "acl:2026.acl-long.1328", "score": 0.013514, "component_ranks": {"dense": 14}}
+{"query_id": "q2", "rank": 37, "paper_id": "acl:2026.findings-emnlp.1861", "score": 0.01339, "component_ranks": {"bm25": 85, "dense": 94}}
+{"query_id": "q2", "rank": 38, "paper_id": "acl:2025.findings-emnlp.368", "score": 0.013333, "component_ranks": {"dense": 15}}
+{"query_id": "q2", "rank": 39, "paper_id": "acl:2026.findings-acl.1068", "score": 0.013158, "component_ranks": {"bm25": 16}}
+{"query_id": "q2", "rank": 40, "paper_id": "acl:2025.emnlp-main.42", "score": 0.012987, "component_ranks": {"bm25": 17}}
+{"query_id": "q2", "rank": 41, "paper_id": "acl:2026.acl-long.1243", "score": 0.012658, "component_ranks": {"dense": 19}}
+{"query_id": "q2", "rank": 42, "paper_id": "acl:2026.findings-emnlp.546", "score": 0.012658, "component_ranks": {"bm25": 19}}
+{"query_id": "q2", "rank": 43, "paper_id": "acl:2026.acl-long.666", "score": 0.0125, "component_ranks": {"dense": 20}}
+{"query_id": "q2", "rank": 44, "paper_id": "acl:2026.emnlp-main.2387", "score": 0.0125, "component_ranks": {"bm25": 20}}
+{"query_id": "q2", "rank": 45, "paper_id": "acl:2026.findings-acl.1674", "score": 0.012195, "component_ranks": {"dense": 22}}
+{"query_id": "q2", "rank": 46, "paper_id": "acl:2026.findings-emnlp.953", "score": 0.012195, "component_ranks": {"bm25": 22}}
+{"query_id": "q2", "rank": 47, "paper_id": "acl:2026.acl-long.790", "score": 0.012048, "component_ranks": {"dense": 23}}
+{"query_id": "q2", "rank": 48, "paper_id": "acl:2026.findings-emnlp.977", "score": 0.012048, "component_ranks": {"bm25": 23}}
+{"query_id": "q2", "rank": 49, "paper_id": "acl:2026.findings-acl.2125", "score": 0.011905, "component_ranks": {"dense": 24}}
+{"query_id": "q2", "rank": 50, "paper_id": "acl:2025.acl-long.488", "score": 0.011765, "component_ranks": {"dense": 25}}
+{"query_id": "q3", "rank": 1, "paper_id": "acl:2026.emnlp-main.1691", "score": 0.031319, "component_ranks": {"bm25": 7, "dense": 1}}
+{"query_id": "q3", "rank": 2, "paper_id": "acl:2026.acl-long.448", "score": 0.031281, "component_ranks": {"bm25": 6, "dense": 2}}
+{"query_id": "q3", "rank": 3, "paper_id": "acl:2026.emnlp-main.173", "score": 0.029116, "component_ranks": {"bm25": 2, "dense": 17}}
+{"query_id": "q3", "rank": 4, "paper_id": "acl:2026.findings-emnlp.1154", "score": 0.028898, "component_ranks": {"bm25": 14, "dense": 5}}
+{"query_id": "q3", "rank": 5, "paper_id": "acl:2026.emnlp-main.1671", "score": 0.028577, "component_ranks": {"bm25": 9, "dense": 11}}
+{"query_id": "q3", "rank": 6, "paper_id": "acl:2026.emnlp-main.1681", "score": 0.02669, "component_ranks": {"bm25": 25, "dense": 7}}
+{"query_id": "q3", "rank": 7, "paper_id": "acl:2026.acl-long.971", "score": 0.026495, "component_ranks": {"bm25": 32, "dense": 4}}
+{"query_id": "q3", "rank": 8, "paper_id": "acl:2026.findings-emnlp.760", "score": 0.026399, "component_ranks": {"bm25": 3, "dense": 35}}
+{"query_id": "q3", "rank": 9, "paper_id": "acl:2026.emnlp-main.634", "score": 0.026334, "component_ranks": {"bm25": 10, "dense": 23}}
+{"query_id": "q3", "rank": 10, "paper_id": "acl:2025.findings-emnlp.720", "score": 0.026182, "component_ranks": {"bm25": 37, "dense": 3}}
+{"query_id": "q3", "rank": 11, "paper_id": "acl:2026.acl-long.288", "score": 0.026121, "component_ranks": {"bm25": 26, "dense": 9}}
+{"query_id": "q3", "rank": 12, "paper_id": "acl:2026.acl-long.1249", "score": 0.025504, "component_ranks": {"bm25": 21, "dense": 16}}
+{"query_id": "q3", "rank": 13, "paper_id": "acl:2025.emnlp-main.22", "score": 0.025382, "component_ranks": {"bm25": 23, "dense": 15}}
+{"query_id": "q3", "rank": 14, "paper_id": "acl:2026.emnlp-main.1530", "score": 0.02494, "component_ranks": {"bm25": 1, "dense": 57}}
+{"query_id": "q3", "rank": 15, "paper_id": "acl:2026.findings-emnlp.1344", "score": 0.024652, "component_ranks": {"bm25": 16, "dense": 27}}
+{"query_id": "q3", "rank": 16, "paper_id": "acl:2026.acl-long.609", "score": 0.024405, "component_ranks": {"bm25": 20, "dense": 24}}
+{"query_id": "q3", "rank": 17, "paper_id": "acl:2026.findings-emnlp.2218", "score": 0.024405, "component_ranks": {"bm25": 24, "dense": 20}}
+{"query_id": "q3", "rank": 18, "paper_id": "acl:2026.emnlp-main.887", "score": 0.024052, "component_ranks": {"bm25": 47, "dense": 8}}
+{"query_id": "q3", "rank": 19, "paper_id": "acl:2026.findings-acl.1243", "score": 0.023222, "component_ranks": {"bm25": 43, "dense": 14}}
+{"query_id": "q3", "rank": 20, "paper_id": "acl:2026.emnlp-main.1860", "score": 0.021749, "component_ranks": {"bm25": 18, "dense": 52}}
+{"query_id": "q3", "rank": 21, "paper_id": "acl:2026.findings-acl.1688", "score": 0.020204, "component_ranks": {"bm25": 40, "dense": 38}}
+{"query_id": "q3", "rank": 22, "paper_id": "acl:2025.findings-acl.1210", "score": 0.020192, "component_ranks": {"bm25": 94, "dense": 13}}
+{"query_id": "q3", "rank": 23, "paper_id": "acl:2025.naacl-long.342", "score": 0.019957, "component_ranks": {"bm25": 77, "dense": 19}}
+{"query_id": "q3", "rank": 24, "paper_id": "acl:2026.findings-acl.988", "score": 0.019869, "component_ranks": {"bm25": 15, "dense": 93}}
+{"query_id": "q3", "rank": 25, "paper_id": "acl:2026.emnlp-main.1937", "score": 0.01915, "component_ranks": {"bm25": 42, "dense": 47}}
+{"query_id": "q3", "rank": 26, "paper_id": "acl:2026.emnlp-main.1396", "score": 0.018575, "component_ranks": {"bm25": 66, "dense": 34}}
+{"query_id": "q3", "rank": 27, "paper_id": "acl:2026.findings-emnlp.1053", "score": 0.018522, "component_ranks": {"bm25": 56, "dense": 41}}
+{"query_id": "q3", "rank": 28, "paper_id": "acl:2026.findings-emnlp.1611", "score": 0.018305, "component_ranks": {"bm25": 30, "dense": 79}}
+{"query_id": "q3", "rank": 29, "paper_id": "acl:2026.findings-eacl.174", "score": 0.018038, "component_ranks": {"bm25": 39, "dense": 66}}
+{"query_id": "q3", "rank": 30, "paper_id": "acl:2026.findings-emnlp.875", "score": 0.017471, "component_ranks": {"bm25": 35, "dense": 84}}
+{"query_id": "q3", "rank": 31, "paper_id": "acl:2026.emnlp-main.1117", "score": 0.017175, "component_ranks": {"bm25": 54, "dense": 59}}
+{"query_id": "q3", "rank": 32, "paper_id": "acl:2026.findings-emnlp.1709", "score": 0.017171, "component_ranks": {"bm25": 74, "dense": 43}}
+{"query_id": "q3", "rank": 33, "paper_id": "acl:2026.acl-long.2010", "score": 0.01601, "component_ranks": {"bm25": 57, "dense": 74}}
+{"query_id": "q3", "rank": 34, "paper_id": "acl:2026.emnlp-main.389", "score": 0.015625, "component_ranks": {"bm25": 4}}
+{"query_id": "q3", "rank": 35, "paper_id": "acl:2026.findings-emnlp.2251", "score": 0.015385, "component_ranks": {"bm25": 5}}
+{"query_id": "q3", "rank": 36, "paper_id": "acl:2025.findings-acl.400", "score": 0.015331, "component_ranks": {"bm25": 68, "dense": 73}}
+{"query_id": "q3", "rank": 37, "paper_id": "acl:2025.findings-emnlp.320", "score": 0.015152, "component_ranks": {"dense": 6}}
+{"query_id": "q3", "rank": 38, "paper_id": "acl:2026.findings-acl.1729", "score": 0.014819, "component_ranks": {"bm25": 62, "dense": 91}}
+{"query_id": "q3", "rank": 39, "paper_id": "acl:2026.emnlp-main.2267", "score": 0.014706, "component_ranks": {"bm25": 8}}
+{"query_id": "q3", "rank": 40, "paper_id": "acl:2025.acl-long.1368", "score": 0.014286, "component_ranks": {"dense": 10}}
+{"query_id": "q3", "rank": 41, "paper_id": "acl:2026.findings-acl.394", "score": 0.014085, "component_ranks": {"bm25": 11}}
+{"query_id": "q3", "rank": 42, "paper_id": "acl:2026.acl-long.1909", "score": 0.013889, "component_ranks": {"bm25": 12}}
+{"query_id": "q3", "rank": 43, "paper_id": "acl:2026.acl-long.745", "score": 0.013889, "component_ranks": {"dense": 12}}
+{"query_id": "q3", "rank": 44, "paper_id": "acl:2026.acl-long.1586", "score": 0.013699, "component_ranks": {"bm25": 13}}
+{"query_id": "q3", "rank": 45, "paper_id": "acl:2026.acl-long.1124", "score": 0.012987, "component_ranks": {"bm25": 17}}
+{"query_id": "q3", "rank": 46, "paper_id": "acl:2026.findings-eacl.140", "score": 0.012821, "component_ranks": {"dense": 18}}
+{"query_id": "q3", "rank": 47, "paper_id": "acl:2026.emnlp-main.970", "score": 0.01278, "component_ranks": {"bm25": 96, "dense": 97}}
+{"query_id": "q3", "rank": 48, "paper_id": "acl:2026.emnlp-main.509", "score": 0.012658, "component_ranks": {"bm25": 19}}
+{"query_id": "q3", "rank": 49, "paper_id": "acl:2026.findings-acl.1804", "score": 0.012346, "component_ranks": {"dense": 21}}
+{"query_id": "q3", "rank": 50, "paper_id": "acl:2025.findings-emnlp.477", "score": 0.012195, "component_ranks": {"dense": 22}}
+{"query_id": "q4", "rank": 1, "paper_id": "acl:2025.emnlp-main.1481", "score": 0.029214, "component_ranks": {"bm25": 18, "dense": 1}}
+{"query_id": "q4", "rank": 2, "paper_id": "acl:2025.acl-long.71", "score": 0.027497, "component_ranks": {"bm25": 21, "dense": 6}}
+{"query_id": "q4", "rank": 3, "paper_id": "acl:2025.acl-long.1176", "score": 0.027047, "component_ranks": {"bm25": 12, "dense": 16}}
+{"query_id": "q4", "rank": 4, "paper_id": "acl:2025.naacl-long.175", "score": 0.026611, "component_ranks": {"bm25": 24, "dense": 8}}
+{"query_id": "q4", "rank": 5, "paper_id": "acl:2026.acl-long.1571", "score": 0.026137, "component_ranks": {"bm25": 33, "dense": 5}}
+{"query_id": "q4", "rank": 6, "paper_id": "acl:2025.findings-emnlp.322", "score": 0.022989, "component_ranks": {"bm25": 27, "dense": 27}}
+{"query_id": "q4", "rank": 7, "paper_id": "acl:2025.acl-long.1058", "score": 0.022115, "component_ranks": {"bm25": 20, "dense": 44}}
+{"query_id": "q4", "rank": 8, "paper_id": "acl:2026.emnlp-main.2372", "score": 0.021729, "component_ranks": {"bm25": 39, "dense": 26}}
+{"query_id": "q4", "rank": 9, "paper_id": "acl:2025.findings-acl.1199", "score": 0.021508, "component_ranks": {"bm25": 32, "dense": 34}}
+{"query_id": "q4", "rank": 10, "paper_id": "acl:2026.findings-acl.2086", "score": 0.021339, "component_ranks": {"bm25": 46, "dense": 24}}
+{"query_id": "q4", "rank": 11, "paper_id": "acl:2026.findings-acl.2099", "score": 0.021074, "component_ranks": {"bm25": 38, "dense": 32}}
+{"query_id": "q4", "rank": 12, "paper_id": "acl:2025.findings-emnlp.746", "score": 0.020851, "component_ranks": {"bm25": 44, "dense": 29}}
+{"query_id": "q4", "rank": 13, "paper_id": "acl:2026.findings-eacl.53", "score": 0.020791, "component_ranks": {"bm25": 13, "dense": 81}}
+{"query_id": "q4", "rank": 14, "paper_id": "acl:2026.findings-acl.2147", "score": 0.019786, "component_ranks": {"bm25": 48, "dense": 35}}
+{"query_id": "q4", "rank": 15, "paper_id": "acl:2025.findings-emnlp.228", "score": 0.019366, "component_ranks": {"bm25": 29, "dense": 63}}
+{"query_id": "q4", "rank": 16, "paper_id": "acl:2026.findings-emnlp.113", "score": 0.019347, "component_ranks": {"bm25": 23, "dense": 77}}
+{"query_id": "q4", "rank": 17, "paper_id": "acl:2025.findings-emnlp.873", "score": 0.018929, "component_ranks": {"bm25": 40, "dense": 52}}
+{"query_id": "q4", "rank": 18, "paper_id": "acl:2025.emnlp-main.1809", "score": 0.018873, "component_ranks": {"bm25": 54, "dense": 39}}
+{"query_id": "q4", "rank": 19, "paper_id": "acl:2026.findings-acl.358", "score": 0.018647, "component_ranks": {"bm25": 95, "dense": 22}}
+{"query_id": "q4", "rank": 20, "paper_id": "acl:2025.acl-long.276", "score": 0.01852, "component_ranks": {"bm25": 49, "dense": 47}}
+{"query_id": "q4", "rank": 21, "paper_id": "acl:2025.findings-naacl.12", "score": 0.017254, "component_ranks": {"bm25": 76, "dense": 41}}
+{"query_id": "q4", "rank": 22, "paper_id": "acl:2026.findings-eacl.296", "score": 0.016877, "component_ranks": {"bm25": 45, "dense": 76}}
+{"query_id": "q4", "rank": 23, "paper_id": "acl:2026.findings-acl.2048", "score": 0.016852, "component_ranks": {"bm25": 80, "dense": 43}}
+{"query_id": "q4", "rank": 24, "paper_id": "acl:2026.findings-emnlp.1919", "score": 0.016748, "component_ranks": {"bm25": 84, "dense": 42}}
+{"query_id": "q4", "rank": 25, "paper_id": "acl:2025.findings-emnlp.93", "score": 0.016646, "component_ranks": {"bm25": 67, "dense": 54}}
+{"query_id": "q4", "rank": 26, "paper_id": "acl:2026.acl-long.1812", "score": 0.016393, "component_ranks": {"bm25": 1}}
+{"query_id": "q4", "rank": 27, "paper_id": "acl:2026.eacl-long.136", "score": 0.016129, "component_ranks": {"dense": 2}}
+{"query_id": "q4", "rank": 28, "paper_id": "acl:2026.emnlp-main.399", "score": 0.016129, "component_ranks": {"bm25": 2}}
+{"query_id": "q4", "rank": 29, "paper_id": "acl:2025.findings-acl.225", "score": 0.015873, "component_ranks": {"bm25": 3}}
+{"query_id": "q4", "rank": 30, "paper_id": "acl:2025.findings-acl.350", "score": 0.015873, "component_ranks": {"dense": 3}}
+{"query_id": "q4", "rank": 31, "paper_id": "acl:2026.findings-emnlp.1156", "score": 0.015795, "component_ranks": {"bm25": 93, "dense": 48}}
+{"query_id": "q4", "rank": 32, "paper_id": "acl:2025.naacl-long.275", "score": 0.015625, "component_ranks": {"bm25": 4}}
+{"query_id": "q4", "rank": 33, "paper_id": "acl:2026.findings-acl.1907", "score": 0.015625, "component_ranks": {"dense": 4}}
+{"query_id": "q4", "rank": 34, "paper_id": "acl:2025.findings-naacl.249", "score": 0.015385, "component_ranks": {"bm25": 5}}
+{"query_id": "q4", "rank": 35, "paper_id": "acl:2026.emnlp-main.655", "score": 0.015152, "component_ranks": {"bm25": 6}}
+{"query_id": "q4", "rank": 36, "paper_id": "acl:2025.findings-naacl.436", "score": 0.015058, "component_ranks": {"bm25": 83, "dense": 64}}
+{"query_id": "q4", "rank": 37, "paper_id": "acl:2026.emnlp-main.610", "score": 0.015009, "component_ranks": {"bm25": 64, "dense": 84}}
+{"query_id": "q4", "rank": 38, "paper_id": "acl:2025.findings-acl.60", "score": 0.014925, "component_ranks": {"dense": 7}}
+{"query_id": "q4", "rank": 39, "paper_id": "acl:2025.findings-acl.622", "score": 0.014925, "component_ranks": {"bm25": 7}}
+{"query_id": "q4", "rank": 40, "paper_id": "acl:2025.findings-emnlp.339", "score": 0.014706, "component_ranks": {"bm25": 8}}
+{"query_id": "q4", "rank": 41, "paper_id": "acl:2025.findings-emnlp.792", "score": 0.014493, "component_ranks": {"dense": 9}}
+{"query_id": "q4", "rank": 42, "paper_id": "acl:2026.emnlp-main.2645", "score": 0.014493, "component_ranks": {"bm25": 9}}
+{"query_id": "q4", "rank": 43, "paper_id": "acl:2025.naacl-long.325", "score": 0.014286, "component_ranks": {"bm25": 10}}
+{"query_id": "q4", "rank": 44, "paper_id": "acl:2026.findings-acl.1237", "score": 0.014286, "component_ranks": {"dense": 10}}
+{"query_id": "q4", "rank": 45, "paper_id": "acl:2025.findings-emnlp.1365", "score": 0.014085, "component_ranks": {"bm25": 11}}
+{"query_id": "q4", "rank": 46, "paper_id": "acl:2025.findings-emnlp.663", "score": 0.014085, "component_ranks": {"dense": 11}}
+{"query_id": "q4", "rank": 47, "paper_id": "acl:2026.acl-long.376", "score": 0.014011, "component_ranks": {"bm25": 77, "dense": 89}}
+{"query_id": "q4", "rank": 48, "paper_id": "acl:2026.emnlp-main.1519", "score": 0.013986, "component_ranks": {"bm25": 72, "dense": 96}}
+{"query_id": "q4", "rank": 49, "paper_id": "acl:2025.findings-emnlp.572", "score": 0.013889, "component_ranks": {"dense": 12}}
+{"query_id": "q4", "rank": 50, "paper_id": "acl:2025.findings-acl.96", "score": 0.013752, "component_ranks": {"bm25": 99, "dense": 74}}
+{"query_id": "q5", "rank": 1, "paper_id": "acl:2025.findings-emnlp.707", "score": 0.031754, "component_ranks": {"bm25": 2, "dense": 4}}
+{"query_id": "q5", "rank": 2, "paper_id": "acl:2025.findings-emnlp.17", "score": 0.031281, "component_ranks": {"bm25": 6, "dense": 2}}
+{"query_id": "q5", "rank": 3, "paper_id": "acl:2025.emnlp-main.1579", "score": 0.030798, "component_ranks": {"bm25": 3, "dense": 7}}
+{"query_id": "q5", "rank": 4, "paper_id": "acl:2026.findings-acl.2021", "score": 0.029958, "component_ranks": {"bm25": 11, "dense": 3}}
+{"query_id": "q5", "rank": 5, "paper_id": "acl:2025.emnlp-main.1529", "score": 0.02879, "component_ranks": {"bm25": 8, "dense": 11}}
+{"query_id": "q5", "rank": 6, "paper_id": "acl:2026.acl-long.1432", "score": 0.028589, "component_ranks": {"bm25": 22, "dense": 1}}
+{"query_id": "q5", "rank": 7, "paper_id": "acl:2025.acl-long.1136", "score": 0.028446, "component_ranks": {"bm25": 4, "dense": 18}}
+{"query_id": "q5", "rank": 8, "paper_id": "acl:2026.findings-emnlp.2207", "score": 0.027912, "component_ranks": {"bm25": 7, "dense": 17}}
+{"query_id": "q5", "rank": 9, "paper_id": "acl:2025.acl-long.1459", "score": 0.025987, "component_ranks": {"bm25": 9, "dense": 27}}
+{"query_id": "q5", "rank": 10, "paper_id": "acl:2025.acl-long.1493", "score": 0.024706, "component_ranks": {"bm25": 40, "dense": 8}}
+{"query_id": "q5", "rank": 11, "paper_id": "acl:2026.acl-long.435", "score": 0.023222, "component_ranks": {"bm25": 14, "dense": 43}}
+{"query_id": "q5", "rank": 12, "paper_id": "acl:2026.findings-acl.110", "score": 0.022987, "component_ranks": {"bm25": 17, "dense": 40}}
+{"query_id": "q5", "rank": 13, "paper_id": "acl:2025.acl-long.710", "score": 0.022543, "component_ranks": {"bm25": 24, "dense": 34}}
+{"query_id": "q5", "rank": 14, "paper_id": "acl:2026.acl-long.427", "score": 0.02178, "component_ranks": {"bm25": 36, "dense": 28}}
+{"query_id": "q5", "rank": 15, "paper_id": "acl:2026.findings-emnlp.759", "score": 0.021406, "component_ranks": {"bm25": 31, "dense": 36}}
+{"query_id": "q5", "rank": 16, "paper_id": "acl:2025.acl-long.845", "score": 0.020471, "component_ranks": {"bm25": 19, "dense": 68}}
+{"query_id": "q5", "rank": 17, "paper_id": "acl:2026.findings-eacl.259", "score": 0.019961, "component_ranks": {"bm25": 60, "dense": 26}}
+{"query_id": "q5", "rank": 18, "paper_id": "acl:2026.findings-acl.462", "score": 0.019681, "component_ranks": {"bm25": 33, "dense": 52}}
+{"query_id": "q5", "rank": 19, "paper_id": "acl:2025.acl-long.1008", "score": 0.01872, "component_ranks": {"bm25": 26, "dense": 81}}
+{"query_id": "q5", "rank": 20, "paper_id": "acl:2025.emnlp-main.979", "score": 0.018064, "component_ranks": {"bm25": 79, "dense": 32}}
+{"query_id": "q5", "rank": 21, "paper_id": "acl:2025.emnlp-main.291", "score": 0.017991, "component_ranks": {"bm25": 34, "dense": 76}}
+{"query_id": "q5", "rank": 22, "paper_id": "acl:2026.findings-emnlp.1866", "score": 0.016515, "component_ranks": {"bm25": 89, "dense": 42}}
+{"query_id": "q5", "rank": 23, "paper_id": "acl:2025.emnlp-main.1111", "score": 0.016393, "component_ranks": {"bm25": 1}}
+{"query_id": "q5", "rank": 24, "paper_id": "acl:2026.eacl-long.195", "score": 0.015385, "component_ranks": {"bm25": 5}}
+{"query_id": "q5", "rank": 25, "paper_id": "acl:2026.emnlp-main.2550", "score": 0.015385, "component_ranks": {"dense": 5}}
+{"query_id": "q5", "rank": 26, "paper_id": "acl:2025.findings-emnlp.1238", "score": 0.015152, "component_ranks": {"dense": 6}}
+{"query_id": "q5", "rank": 27, "paper_id": "acl:2026.emnlp-main.708", "score": 0.014844, "component_ranks": {"bm25": 97, "dense": 58}}
+{"query_id": "q5", "rank": 28, "paper_id": "acl:2026.eacl-long.69", "score": 0.014493, "component_ranks": {"dense": 9}}
+{"query_id": "q5", "rank": 29, "paper_id": "acl:2026.emnlp-main.1738", "score": 0.014483, "component_ranks": {"bm25": 71, "dense": 86}}
+{"query_id": "q5", "rank": 30, "paper_id": "acl:2025.findings-acl.962", "score": 0.014286, "component_ranks": {"dense": 10}}
+{"query_id": "q5", "rank": 31, "paper_id": "acl:2025.findings-emnlp.1054", "score": 0.014286, "component_ranks": {"bm25": 10}}
+{"query_id": "q5", "rank": 32, "paper_id": "acl:2026.eacl-long.236", "score": 0.013889, "component_ranks": {"bm25": 12}}
+{"query_id": "q5", "rank": 33, "paper_id": "acl:2026.findings-emnlp.2044", "score": 0.013889, "component_ranks": {"dense": 12}}
+{"query_id": "q5", "rank": 34, "paper_id": "acl:2026.emnlp-main.2396", "score": 0.013699, "component_ranks": {"bm25": 13}}
+{"query_id": "q5", "rank": 35, "paper_id": "acl:2026.findings-emnlp.1431", "score": 0.013699, "component_ranks": {"dense": 13}}
+{"query_id": "q5", "rank": 36, "paper_id": "acl:2025.findings-emnlp.713", "score": 0.013514, "component_ranks": {"dense": 14}}
+{"query_id": "q5", "rank": 37, "paper_id": "acl:2025.findings-acl.1079", "score": 0.013333, "component_ranks": {"dense": 15}}
+{"query_id": "q5", "rank": 38, "paper_id": "acl:2026.acl-long.1524", "score": 0.013333, "component_ranks": {"bm25": 15}}
+{"query_id": "q5", "rank": 39, "paper_id": "acl:2025.findings-emnlp.1379", "score": 0.013158, "component_ranks": {"dense": 16}}
+{"query_id": "q5", "rank": 40, "paper_id": "acl:2026.emnlp-main.2330", "score": 0.013158, "component_ranks": {"bm25": 16}}
+{"query_id": "q5", "rank": 41, "paper_id": "acl:2026.findings-emnlp.2344", "score": 0.012821, "component_ranks": {"bm25": 18}}
+{"query_id": "q5", "rank": 42, "paper_id": "acl:2026.emnlp-main.944", "score": 0.012658, "component_ranks": {"dense": 19}}
+{"query_id": "q5", "rank": 43, "paper_id": "acl:2026.findings-eacl.68", "score": 0.0125, "component_ranks": {"dense": 20}}
+{"query_id": "q5", "rank": 44, "paper_id": "acl:2026.findings-emnlp.2213", "score": 0.0125, "component_ranks": {"bm25": 20}}
+{"query_id": "q5", "rank": 45, "paper_id": "acl:2025.acl-long.1355", "score": 0.012346, "component_ranks": {"dense": 21}}
+{"query_id": "q5", "rank": 46, "paper_id": "acl:2025.findings-acl.193", "score": 0.012346, "component_ranks": {"bm25": 21}}
+{"query_id": "q5", "rank": 47, "paper_id": "acl:2026.emnlp-main.128", "score": 0.012195, "component_ranks": {"dense": 22}}
+{"query_id": "q5", "rank": 48, "paper_id": "acl:2025.acl-long.557", "score": 0.012048, "component_ranks": {"dense": 23}}
+{"query_id": "q5", "rank": 49, "paper_id": "acl:2026.findings-emnlp.975", "score": 0.012048, "component_ranks": {"bm25": 23}}
+{"query_id": "q5", "rank": 50, "paper_id": "acl:2026.emnlp-main.2057", "score": 0.011905, "component_ranks": {"dense": 24}}
+{"query_id": "q6", "rank": 1, "paper_id": "acl:2026.findings-acl.410", "score": 0.029412, "component_ranks": {"bm25": 8, "dense": 8}}
+{"query_id": "q6", "rank": 2, "paper_id": "acl:2025.emnlp-main.124", "score": 0.028034, "component_ranks": {"bm25": 2, "dense": 24}}
+{"query_id": "q6", "rank": 3, "paper_id": "acl:2025.findings-acl.883", "score": 0.026197, "component_ranks": {"bm25": 42, "dense": 1}}
+{"query_id": "q6", "rank": 4, "paper_id": "acl:2026.findings-eacl.94", "score": 0.02578, "component_ranks": {"bm25": 27, "dense": 10}}
+{"query_id": "q6", "rank": 5, "paper_id": "acl:2025.findings-emnlp.750", "score": 0.025563, "component_ranks": {"bm25": 46, "dense": 2}}
+{"query_id": "q6", "rank": 6, "paper_id": "acl:2026.emnlp-main.1807", "score": 0.024569, "component_ranks": {"bm25": 15, "dense": 29}}
+{"query_id": "q6", "rank": 7, "paper_id": "acl:2025.acl-long.1254", "score": 0.024569, "component_ranks": {"bm25": 55, "dense": 3}}
+{"query_id": "q6", "rank": 8, "paper_id": "acl:2026.acl-long.675", "score": 0.022859, "component_ranks": {"bm25": 47, "dense": 14}}
+{"query_id": "q6", "rank": 9, "paper_id": "acl:2025.findings-acl.477", "score": 0.022252, "component_ranks": {"bm25": 23, "dense": 38}}
+{"query_id": "q6", "rank": 10, "paper_id": "acl:2026.findings-acl.1361", "score": 0.022074, "component_ranks": {"bm25": 25, "dense": 37}}
+{"query_id": "q6", "rank": 11, "paper_id": "acl:2025.findings-acl.1255", "score": 0.022035, "component_ranks": {"bm25": 4, "dense": 96}}
+{"query_id": "q6", "rank": 12, "paper_id": "acl:2026.emnlp-main.1899", "score": 0.021328, "component_ranks": {"bm25": 10, "dense": 82}}
+{"query_id": "q6", "rank": 13, "paper_id": "acl:2025.findings-acl.804", "score": 0.021242, "component_ranks": {"bm25": 76, "dense": 12}}
+{"query_id": "q6", "rank": 14, "paper_id": "acl:2026.emnlp-main.2013", "score": 0.021224, "component_ranks": {"bm25": 59, "dense": 18}}
+{"query_id": "q6", "rank": 15, "paper_id": "acl:2025.acl-long.1415", "score": 0.021032, "component_ranks": {"bm25": 67, "dense": 16}}
+{"query_id": "q6", "rank": 16, "paper_id": "acl:2026.eacl-long.53", "score": 0.020313, "component_ranks": {"bm25": 20, "dense": 68}}
+{"query_id": "q6", "rank": 17, "paper_id": "acl:2025.findings-emnlp.932", "score": 0.019979, "component_ranks": {"bm25": 71, "dense": 21}}
+{"query_id": "q6", "rank": 18, "paper_id": "acl:2026.findings-emnlp.187", "score": 0.018547, "component_ranks": {"bm25": 63, "dense": 36}}
+{"query_id": "q6", "rank": 19, "paper_id": "acl:2026.emnlp-main.2002", "score": 0.017853, "component_ranks": {"bm25": 39, "dense": 69}}
+{"query_id": "q6", "rank": 20, "paper_id": "acl:2026.acl-long.1659", "score": 0.016903, "component_ranks": {"bm25": 68, "dense": 50}}
+{"query_id": "q6", "rank": 21, "paper_id": "acl:2025.emnlp-main.750", "score": 0.016393, "component_ranks": {"bm25": 1}}
+{"query_id": "q6", "rank": 22, "paper_id": "acl:2025.naacl-long.63", "score": 0.016123, "component_ranks": {"bm25": 52, "dense": 79}}
+{"query_id": "q6", "rank": 23, "paper_id": "acl:2025.emnlp-main.872", "score": 0.015925, "component_ranks": {"bm25": 92, "dense": 47}}
+{"query_id": "q6", "rank": 24, "paper_id": "acl:2026.eacl-long.71", "score": 0.015873, "component_ranks": {"bm25": 3}}
+{"query_id": "q6", "rank": 25, "paper_id": "acl:2025.emnlp-main.996", "score": 0.015625, "component_ranks": {"dense": 4}}
+{"query_id": "q6", "rank": 26, "paper_id": "acl:2025.emnlp-main.856", "score": 0.015396, "component_ranks": {"bm25": 83, "dense": 59}}
+{"query_id": "q6", "rank": 27, "paper_id": "acl:2025.acl-long.728", "score": 0.015385, "component_ranks": {"dense": 5}}
+{"query_id": "q6", "rank": 28, "paper_id": "acl:2026.findings-acl.862", "score": 0.015385, "component_ranks": {"bm25": 5}}
+{"query_id": "q6", "rank": 29, "paper_id": "acl:2025.findings-naacl.203", "score": 0.015194, "component_ranks": {"bm25": 79, "dense": 65}}
+{"query_id": "q6", "rank": 30, "paper_id": "acl:2025.findings-acl.45", "score": 0.015152, "component_ranks": {"dense": 6}}
+{"query_id": "q6", "rank": 31, "paper_id": "acl:2026.acl-long.1578", "score": 0.015152, "component_ranks": {"bm25": 6}}
+{"query_id": "q6", "rank": 32, "paper_id": "acl:2026.findings-eacl.122", "score": 0.01499, "component_ranks": {"bm25": 97, "dense": 56}}
+{"query_id": "q6", "rank": 33, "paper_id": "acl:2025.acl-long.38", "score": 0.014925, "component_ranks": {"dense": 7}}
+{"query_id": "q6", "rank": 34, "paper_id": "acl:2026.findings-emnlp.359", "score": 0.014925, "component_ranks": {"bm25": 7}}
+{"query_id": "q6", "rank": 35, "paper_id": "acl:2025.naacl-long.142", "score": 0.014493, "component_ranks": {"dense": 9}}
+{"query_id": "q6", "rank": 36, "paper_id": "acl:2026.emnlp-main.1843", "score": 0.014493, "component_ranks": {"bm25": 9}}
+{"query_id": "q6", "rank": 37, "paper_id": "acl:2025.acl-long.1450", "score": 0.014419, "component_ranks": {"bm25": 99, "dense": 63}}
+{"query_id": "q6", "rank": 38, "paper_id": "acl:2025.findings-acl.1114", "score": 0.014085, "component_ranks": {"dense": 11}}
+{"query_id": "q6", "rank": 39, "paper_id": "acl:2025.findings-acl.82", "score": 0.014085, "component_ranks": {"bm25": 11}}
+{"query_id": "q6", "rank": 40, "paper_id": "acl:2025.findings-emnlp.1029", "score": 0.013889, "component_ranks": {"bm25": 12}}
+{"query_id": "q6", "rank": 41, "paper_id": "acl:2025.acl-long.1580", "score": 0.013699, "component_ranks": {"dense": 13}}
+{"query_id": "q6", "rank": 42, "paper_id": "acl:2026.acl-long.1024", "score": 0.013699, "component_ranks": {"bm25": 13}}
+{"query_id": "q6", "rank": 43, "paper_id": "acl:2025.findings-acl.799", "score": 0.013628, "component_ranks": {"bm25": 98, "dense": 77}}
+{"query_id": "q6", "rank": 44, "paper_id": "acl:2026.findings-emnlp.1781", "score": 0.013514, "component_ranks": {"bm25": 14}}
+{"query_id": "q6", "rank": 45, "paper_id": "acl:2026.findings-acl.557", "score": 0.013333, "component_ranks": {"dense": 15}}
+{"query_id": "q6", "rank": 46, "paper_id": "acl:2026.acl-long.1934", "score": 0.013158, "component_ranks": {"bm25": 16}}
+{"query_id": "q6", "rank": 47, "paper_id": "acl:2025.naacl-long.287", "score": 0.012987, "component_ranks": {"dense": 17}}
+{"query_id": "q6", "rank": 48, "paper_id": "acl:2026.emnlp-main.1074", "score": 0.012987, "component_ranks": {"bm25": 17}}
+{"query_id": "q6", "rank": 49, "paper_id": "acl:2026.emnlp-main.131", "score": 0.012821, "component_ranks": {"bm25": 18}}
+{"query_id": "q6", "rank": 50, "paper_id": "acl:2025.findings-acl.1071", "score": 0.012658, "component_ranks": {"bm25": 19}}
+{"query_id": "q7", "rank": 1, "paper_id": "acl:2025.acl-long.60", "score": 0.032266, "component_ranks": {"bm25": 3, "dense": 1}}
+{"query_id": "q7", "rank": 2, "paper_id": "acl:2026.emnlp-main.58", "score": 0.030214, "component_ranks": {"bm25": 2, "dense": 11}}
+{"query_id": "q7", "rank": 3, "paper_id": "acl:2026.findings-emnlp.2350", "score": 0.02904, "component_ranks": {"bm25": 12, "dense": 6}}
+{"query_id": "q7", "rank": 4, "paper_id": "acl:2025.acl-long.1404", "score": 0.027347, "component_ranks": {"bm25": 6, "dense": 22}}
+{"query_id": "q7", "rank": 5, "paper_id": "acl:2026.emnlp-main.2136", "score": 0.027253, "component_ranks": {"bm25": 26, "dense": 4}}
+{"query_id": "q7", "rank": 6, "paper_id": "acl:2025.acl-long.410", "score": 0.025914, "component_ranks": {"bm25": 7, "dense": 31}}
+{"query_id": "q7", "rank": 7, "paper_id": "acl:2026.findings-emnlp.2156", "score": 0.024086, "component_ranks": {"bm25": 1, "dense": 70}}
+{"query_id": "q7", "rank": 8, "paper_id": "acl:2025.emnlp-main.1531", "score": 0.021963, "component_ranks": {"bm25": 13, "dense": 61}}
+{"query_id": "q7", "rank": 9, "paper_id": "acl:2025.findings-emnlp.571", "score": 0.021391, "component_ranks": {"bm25": 33, "dense": 34}}
+{"query_id": "q7", "rank": 10, "paper_id": "acl:2025.naacl-long.86", "score": 0.02046, "component_ranks": {"bm25": 25, "dense": 55}}
+{"query_id": "q7", "rank": 11, "paper_id": "acl:2025.acl-long.1220", "score": 0.020183, "component_ranks": {"bm25": 15, "dense": 86}}
+{"query_id": "q7", "rank": 12, "paper_id": "acl:2025.acl-long.1600", "score": 0.020041, "component_ranks": {"bm25": 27, "dense": 57}}
+{"query_id": "q7", "rank": 13, "paper_id": "acl:2026.findings-eacl.78", "score": 0.019857, "component_ranks": {"bm25": 56, "dense": 29}}
+{"query_id": "q7", "rank": 14, "paper_id": "acl:2026.findings-acl.413", "score": 0.019645, "component_ranks": {"bm25": 21, "dense": 77}}
+{"query_id": "q7", "rank": 15, "paper_id": "acl:2026.acl-long.1645", "score": 0.018403, "component_ranks": {"bm25": 40, "dense": 59}}
+{"query_id": "q7", "rank": 16, "paper_id": "acl:2026.emnlp-main.407", "score": 0.016129, "component_ranks": {"dense": 2}}
+{"query_id": "q7", "rank": 17, "paper_id": "acl:2025.findings-acl.894", "score": 0.016129, "component_ranks": {"bm25": 64, "dense": 64}}
+{"query_id": "q7", "rank": 18, "paper_id": "acl:2026.acl-short.31", "score": 0.015873, "component_ranks": {"dense": 3}}
+{"query_id": "q7", "rank": 19, "paper_id": "acl:2025.emnlp-main.1201", "score": 0.015668, "component_ranks": {"bm25": 54, "dense": 85}}
+{"query_id": "q7", "rank": 20, "paper_id": "acl:2026.findings-emnlp.2123", "score": 0.015625, "component_ranks": {"bm25": 4}}
+{"query_id": "q7", "rank": 21, "paper_id": "acl:2025.findings-acl.45", "score": 0.015385, "component_ranks": {"dense": 5}}
+{"query_id": "q7", "rank": 22, "paper_id": "acl:2026.findings-acl.444", "score": 0.015385, "component_ranks": {"bm25": 5}}
+{"query_id": "q7", "rank": 23, "paper_id": "acl:2026.findings-acl.963", "score": 0.01535, "component_ranks": {"bm25": 57, "dense": 87}}
+{"query_id": "q7", "rank": 24, "paper_id": "acl:2026.findings-emnlp.1821", "score": 0.014925, "component_ranks": {"dense": 7}}
+{"query_id": "q7", "rank": 25, "paper_id": "acl:2025.acl-long.810", "score": 0.014706, "component_ranks": {"bm25": 8}}
+{"query_id": "q7", "rank": 26, "paper_id": "acl:2025.emnlp-main.1537", "score": 0.014706, "component_ranks": {"dense": 8}}
+{"query_id": "q7", "rank": 27, "paper_id": "acl:2025.acl-long.38", "score": 0.014493, "component_ranks": {"dense": 9}}
+{"query_id": "q7", "rank": 28, "paper_id": "acl:2025.findings-acl.236", "score": 0.014493, "component_ranks": {"bm25": 9}}
+{"query_id": "q7", "rank": 29, "paper_id": "acl:2026.acl-long.778", "score": 0.014286, "component_ranks": {"dense": 10}}
+{"query_id": "q7", "rank": 30, "paper_id": "acl:2026.findings-acl.964", "score": 0.014286, "component_ranks": {"bm25": 10}}
+{"query_id": "q7", "rank": 31, "paper_id": "acl:2026.emnlp-main.41", "score": 0.014085, "component_ranks": {"bm25": 11}}
+{"query_id": "q7", "rank": 32, "paper_id": "acl:2025.acl-long.512", "score": 0.013889, "component_ranks": {"dense": 12}}
+{"query_id": "q7", "rank": 33, "paper_id": "acl:2025.emnlp-main.1637", "score": 0.013782, "component_ranks": {"bm25": 93, "dense": 78}}
+{"query_id": "q7", "rank": 34, "paper_id": "acl:2025.emnlp-main.428", "score": 0.013699, "component_ranks": {"dense": 13}}
+{"query_id": "q7", "rank": 35, "paper_id": "acl:2025.emnlp-main.1082", "score": 0.013514, "component_ranks": {"bm25": 14}}
+{"query_id": "q7", "rank": 36, "paper_id": "acl:2025.emnlp-main.753", "score": 0.013514, "component_ranks": {"dense": 14}}
+{"query_id": "q7", "rank": 37, "paper_id": "acl:2026.acl-long.2160", "score": 0.013333, "component_ranks": {"dense": 15}}
+{"query_id": "q7", "rank": 38, "paper_id": "acl:2026.acl-long.733", "score": 0.013158, "component_ranks": {"bm25": 16}}
+{"query_id": "q7", "rank": 39, "paper_id": "acl:2026.findings-acl.1083", "score": 0.013158, "component_ranks": {"dense": 16}}
+{"query_id": "q7", "rank": 40, "paper_id": "acl:2025.naacl-long.461", "score": 0.012987, "component_ranks": {"dense": 17}}
+{"query_id": "q7", "rank": 41, "paper_id": "acl:2026.emnlp-main.560", "score": 0.012987, "component_ranks": {"bm25": 17}}
+{"query_id": "q7", "rank": 42, "paper_id": "acl:2026.emnlp-main.2388", "score": 0.012945, "component_ranks": {"bm25": 94, "dense": 95}}
+{"query_id": "q7", "rank": 43, "paper_id": "acl:2025.emnlp-main.1609", "score": 0.012821, "component_ranks": {"bm25": 18}}
+{"query_id": "q7", "rank": 44, "paper_id": "acl:2026.acl-long.1489", "score": 0.012821, "component_ranks": {"dense": 18}}
+{"query_id": "q7", "rank": 45, "paper_id": "acl:2025.emnlp-main.1724", "score": 0.012658, "component_ranks": {"dense": 19}}
+{"query_id": "q7", "rank": 46, "paper_id": "acl:2026.findings-emnlp.1662", "score": 0.012658, "component_ranks": {"bm25": 19}}
+{"query_id": "q7", "rank": 47, "paper_id": "acl:2025.findings-acl.1058", "score": 0.0125, "component_ranks": {"bm25": 20}}
+{"query_id": "q7", "rank": 48, "paper_id": "acl:2025.naacl-long.142", "score": 0.0125, "component_ranks": {"dense": 20}}
+{"query_id": "q7", "rank": 49, "paper_id": "acl:2026.emnlp-main.509", "score": 0.012346, "component_ranks": {"dense": 21}}
+{"query_id": "q7", "rank": 50, "paper_id": "acl:2026.emnlp-main.2233", "score": 0.012195, "component_ranks": {"bm25": 22}}
+{"query_id": "q8", "rank": 1, "paper_id": "acl:2026.findings-acl.687", "score": 0.031025, "component_ranks": {"bm25": 6, "dense": 3}}
+{"query_id": "q8", "rank": 2, "paper_id": "acl:2025.findings-acl.280", "score": 0.030679, "component_ranks": {"bm25": 1, "dense": 10}}
+{"query_id": "q8", "rank": 3, "paper_id": "acl:2025.findings-acl.1319", "score": 0.030214, "component_ranks": {"bm25": 11, "dense": 2}}
+{"query_id": "q8", "rank": 4, "paper_id": "acl:2025.acl-long.760", "score": 0.028373, "component_ranks": {"bm25": 3, "dense": 20}}
+{"query_id": "q8", "rank": 5, "paper_id": "acl:2026.acl-long.18", "score": 0.028191, "component_ranks": {"bm25": 9, "dense": 13}}
+{"query_id": "q8", "rank": 6, "paper_id": "acl:2026.findings-emnlp.408", "score": 0.028158, "component_ranks": {"bm25": 25, "dense": 1}}
+{"query_id": "q8", "rank": 7, "paper_id": "acl:2025.findings-acl.1221", "score": 0.027052, "component_ranks": {"bm25": 8, "dense": 21}}
+{"query_id": "q8", "rank": 8, "paper_id": "acl:2025.findings-emnlp.409", "score": 0.026748, "component_ranks": {"bm25": 5, "dense": 28}}
+{"query_id": "q8", "rank": 9, "paper_id": "acl:2026.findings-emnlp.1867", "score": 0.026357, "component_ranks": {"bm25": 13, "dense": 19}}
+{"query_id": "q8", "rank": 10, "paper_id": "acl:2025.findings-emnlp.975", "score": 0.026014, "component_ranks": {"bm25": 20, "dense": 14}}
+{"query_id": "q8", "rank": 11, "paper_id": "acl:2025.findings-acl.272", "score": 0.024449, "component_ranks": {"bm25": 7, "dense": 45}}
+{"query_id": "q8", "rank": 12, "paper_id": "acl:2025.findings-emnlp.16", "score": 0.024394, "component_ranks": {"bm25": 41, "dense": 9}}
+{"query_id": "q8", "rank": 13, "paper_id": "acl:2026.eacl-long.26", "score": 0.024147, "component_ranks": {"bm25": 16, "dense": 31}}
+{"query_id": "q8", "rank": 14, "paper_id": "acl:2026.acl-long.1479", "score": 0.023457, "component_ranks": {"bm25": 21, "dense": 30}}
+{"query_id": "q8", "rank": 15, "paper_id": "acl:2025.findings-emnlp.617", "score": 0.0234, "component_ranks": {"bm25": 58, "dense": 7}}
+{"query_id": "q8", "rank": 16, "paper_id": "acl:2026.findings-emnlp.1578", "score": 0.023296, "component_ranks": {"bm25": 37, "dense": 17}}
+{"query_id": "q8", "rank": 17, "paper_id": "acl:2026.findings-eacl.62", "score": 0.022623, "component_ranks": {"bm25": 2, "dense": 94}}
+{"query_id": "q8", "rank": 18, "paper_id": "acl:2025.acl-long.741", "score": 0.020495, "component_ranks": {"bm25": 48, "dense": 29}}
+{"query_id": "q8", "rank": 19, "paper_id": "acl:2026.acl-long.1226", "score": 0.020374, "component_ranks": {"bm25": 99, "dense": 11}}
+{"query_id": "q8", "rank": 20, "paper_id": "acl:2026.findings-acl.89", "score": 0.020079, "component_ranks": {"bm25": 17, "dense": 81}}
+{"query_id": "q8", "rank": 21, "paper_id": "acl:2026.findings-acl.1922", "score": 0.02, "component_ranks": {"bm25": 15, "dense": 90}}
+{"query_id": "q8", "rank": 22, "paper_id": "acl:2026.findings-acl.1953", "score": 0.019905, "component_ranks": {"bm25": 24, "dense": 65}}
+{"query_id": "q8", "rank": 23, "paper_id": "acl:2025.emnlp-main.1417", "score": 0.019879, "component_ranks": {"bm25": 51, "dense": 32}}
+{"query_id": "q8", "rank": 24, "paper_id": "acl:2025.findings-emnlp.600", "score": 0.019869, "component_ranks": {"bm25": 93, "dense": 15}}
+{"query_id": "q8", "rank": 25, "paper_id": "acl:2025.findings-acl.1387", "score": 0.019691, "component_ranks": {"bm25": 62, "dense": 27}}
+{"query_id": "q8", "rank": 26, "paper_id": "acl:2026.acl-long.151", "score": 0.019624, "component_ranks": {"bm25": 23, "dense": 72}}
+{"query_id": "q8", "rank": 27, "paper_id": "acl:2026.emnlp-main.2312", "score": 0.019488, "component_ranks": {"bm25": 34, "dense": 53}}
+{"query_id": "q8", "rank": 28, "paper_id": "acl:2026.findings-acl.1587", "score": 0.018957, "component_ranks": {"bm25": 27, "dense": 74}}
+{"query_id": "q8", "rank": 29, "paper_id": "acl:2026.acl-long.329", "score": 0.018927, "component_ranks": {"bm25": 26, "dense": 77}}
+{"query_id": "q8", "rank": 30, "paper_id": "acl:2025.findings-emnlp.466", "score": 0.0188, "component_ranks": {"bm25": 43, "dense": 50}}
+{"query_id": "q8", "rank": 31, "paper_id": "acl:2025.acl-long.468", "score": 0.018311, "component_ranks": {"bm25": 44, "dense": 55}}
+{"query_id": "q8", "rank": 32, "paper_id": "acl:2025.emnlp-main.499", "score": 0.018256, "component_ranks": {"bm25": 57, "dense": 43}}
+{"query_id": "q8", "rank": 33, "paper_id": "acl:2025.acl-long.1142", "score": 0.017535, "component_ranks": {"bm25": 71, "dense": 41}}
+{"query_id": "q8", "rank": 34, "paper_id": "acl:2025.findings-acl.130", "score": 0.017508, "component_ranks": {"bm25": 60, "dense": 49}}
+{"query_id": "q8", "rank": 35, "paper_id": "acl:2026.emnlp-main.2395", "score": 0.017486, "component_ranks": {"bm25": 29, "dense": 100}}
+{"query_id": "q8", "rank": 36, "paper_id": "acl:2025.findings-acl.801", "score": 0.01677, "component_ranks": {"bm25": 45, "dense": 78}}
+{"query_id": "q8", "rank": 37, "paper_id": "acl:2025.findings-acl.908", "score": 0.016553, "component_ranks": {"bm25": 39, "dense": 95}}
+{"query_id": "q8", "rank": 38, "paper_id": "acl:2025.findings-emnlp.886", "score": 0.016402, "component_ranks": {"bm25": 80, "dense": 48}}
+{"query_id": "q8", "rank": 39, "paper_id": "acl:2026.emnlp-main.1764", "score": 0.016395, "component_ranks": {"bm25": 61, "dense": 63}}
+{"query_id": "q8", "rank": 40, "paper_id": "acl:2026.findings-emnlp.2324", "score": 0.016083, "component_ranks": {"bm25": 74, "dense": 56}}
+{"query_id": "q8", "rank": 41, "paper_id": "acl:2025.acl-long.1539", "score": 0.015803, "component_ranks": {"bm25": 46, "dense": 97}}
+{"query_id": "q8", "rank": 42, "paper_id": "acl:2025.emnlp-main.873", "score": 0.015625, "component_ranks": {"dense": 4}}
+{"query_id": "q8", "rank": 43, "paper_id": "acl:2026.findings-acl.1147", "score": 0.015625, "component_ranks": {"bm25": 4}}
+{"query_id": "q8", "rank": 44, "paper_id": "acl:2026.emnlp-main.212", "score": 0.015604, "component_ranks": {"bm25": 75, "dense": 62}}
+{"query_id": "q8", "rank": 45, "paper_id": "acl:2025.acl-long.750", "score": 0.015385, "component_ranks": {"dense": 5}}
+{"query_id": "q8", "rank": 46, "paper_id": "acl:2025.emnlp-main.554", "score": 0.015152, "component_ranks": {"dense": 6}}
+{"query_id": "q8", "rank": 47, "paper_id": "acl:2025.findings-emnlp.329", "score": 0.015101, "component_ranks": {"bm25": 54, "dense": 98}}
+{"query_id": "q8", "rank": 48, "paper_id": "acl:2025.findings-acl.97", "score": 0.014855, "component_ranks": {"bm25": 95, "dense": 59}}
+{"query_id": "q8", "rank": 49, "paper_id": "acl:2025.emnlp-main.390", "score": 0.014706, "component_ranks": {"dense": 8}}
+{"query_id": "q8", "rank": 50, "paper_id": "acl:2025.acl-long.1478", "score": 0.014315, "component_ranks": {"bm25": 70, "dense": 91}}
+{"query_id": "q9", "rank": 1, "paper_id": "acl:2025.acl-long.1472", "score": 0.031778, "component_ranks": {"bm25": 1, "dense": 5}}
+{"query_id": "q9", "rank": 2, "paper_id": "acl:2025.findings-acl.923", "score": 0.031746, "component_ranks": {"bm25": 3, "dense": 3}}
+{"query_id": "q9", "rank": 3, "paper_id": "acl:2025.acl-long.885", "score": 0.028259, "component_ranks": {"bm25": 15, "dense": 7}}
+{"query_id": "q9", "rank": 4, "paper_id": "acl:2025.naacl-long.296", "score": 0.02781, "component_ranks": {"bm25": 6, "dense": 19}}
+{"query_id": "q9", "rank": 5, "paper_id": "acl:2025.acl-long.1081", "score": 0.027313, "component_ranks": {"bm25": 18, "dense": 9}}
+{"query_id": "q9", "rank": 6, "paper_id": "acl:2025.acl-long.1097", "score": 0.026857, "component_ranks": {"bm25": 13, "dense": 16}}
+{"query_id": "q9", "rank": 7, "paper_id": "acl:2025.acl-long.358", "score": 0.026471, "component_ranks": {"bm25": 8, "dense": 25}}
+{"query_id": "q9", "rank": 8, "paper_id": "acl:2025.findings-acl.917", "score": 0.02578, "component_ranks": {"bm25": 27, "dense": 10}}
+{"query_id": "q9", "rank": 9, "paper_id": "acl:2025.findings-acl.1301", "score": 0.025603, "component_ranks": {"bm25": 24, "dense": 13}}
+{"query_id": "q9", "rank": 10, "paper_id": "acl:2025.acl-long.248", "score": 0.025528, "component_ranks": {"bm25": 22, "dense": 15}}
+{"query_id": "q9", "rank": 11, "paper_id": "acl:2025.emnlp-main.250", "score": 0.024634, "component_ranks": {"bm25": 7, "dense": 43}}
+{"query_id": "q9", "rank": 12, "paper_id": "acl:2025.emnlp-main.1015", "score": 0.022978, "component_ranks": {"bm25": 2, "dense": 86}}
+{"query_id": "q9", "rank": 13, "paper_id": "acl:2026.findings-acl.335", "score": 0.021391, "component_ranks": {"bm25": 34, "dense": 33}}
+{"query_id": "q9", "rank": 14, "paper_id": "acl:2026.acl-long.2008", "score": 0.020893, "component_ranks": {"bm25": 21, "dense": 57}}
+{"query_id": "q9", "rank": 15, "paper_id": "acl:2025.emnlp-main.409", "score": 0.020796, "component_ranks": {"bm25": 89, "dense": 11}}
+{"query_id": "q9", "rank": 16, "paper_id": "acl:2026.findings-emnlp.180", "score": 0.020692, "component_ranks": {"bm25": 87, "dense": 12}}
+{"query_id": "q9", "rank": 17, "paper_id": "acl:2026.emnlp-main.330", "score": 0.020457, "component_ranks": {"bm25": 47, "dense": 30}}
+{"query_id": "q9", "rank": 18, "paper_id": "acl:2025.findings-acl.513", "score": 0.020162, "component_ranks": {"bm25": 45, "dense": 34}}
+{"query_id": "q9", "rank": 19, "paper_id": "acl:2025.findings-acl.419", "score": 0.018713, "component_ranks": {"bm25": 37, "dense": 59}}
+{"query_id": "q9", "rank": 20, "paper_id": "acl:2025.findings-acl.475", "score": 0.018386, "component_ranks": {"bm25": 33, "dense": 71}}
+{"query_id": "q9", "rank": 21, "paper_id": "acl:2025.emnlp-main.376", "score": 0.018001, "component_ranks": {"bm25": 42, "dense": 62}}
+{"query_id": "q9", "rank": 22, "paper_id": "acl:2026.findings-acl.1349", "score": 0.016868, "component_ranks": {"bm25": 36, "dense": 95}}
+{"query_id": "q9", "rank": 23, "paper_id": "acl:2026.findings-acl.5", "score": 0.016867, "component_ranks": {"bm25": 49, "dense": 70}}
+{"query_id": "q9", "rank": 24, "paper_id": "acl:2026.findings-emnlp.949", "score": 0.016526, "component_ranks": {"bm25": 46, "dense": 81}}
+{"query_id": "q9", "rank": 25, "paper_id": "acl:2025.acl-long.1067", "score": 0.016393, "component_ranks": {"dense": 1}}
+{"query_id": "q9", "rank": 26, "paper_id": "acl:2025.naacl-long.60", "score": 0.016235, "component_ranks": {"bm25": 54, "dense": 74}}
+{"query_id": "q9", "rank": 27, "paper_id": "acl:2025.findings-naacl.142", "score": 0.016129, "component_ranks": {"dense": 2}}
+{"query_id": "q9", "rank": 28, "paper_id": "acl:2025.acl-long.181", "score": 0.015625, "component_ranks": {"dense": 4}}
+{"query_id": "q9", "rank": 29, "paper_id": "acl:2025.findings-naacl.190", "score": 0.015625, "component_ranks": {"bm25": 4}}
+{"query_id": "q9", "rank": 30, "paper_id": "acl:2025.emnlp-main.724", "score": 0.015385, "component_ranks": {"bm25": 5}}
+{"query_id": "q9", "rank": 31, "paper_id": "acl:2025.findings-emnlp.451", "score": 0.015152, "component_ranks": {"dense": 6}}
+{"query_id": "q9", "rank": 32, "paper_id": "acl:2026.findings-eacl.39", "score": 0.014844, "component_ranks": {"bm25": 97, "dense": 58}}
+{"query_id": "q9", "rank": 33, "paper_id": "acl:2025.findings-acl.7", "score": 0.014706, "component_ranks": {"dense": 8}}
+{"query_id": "q9", "rank": 34, "paper_id": "acl:2025.findings-acl.822", "score": 0.014493, "component_ranks": {"bm25": 9}}
+{"query_id": "q9", "rank": 35, "paper_id": "acl:2025.findings-acl.885", "score": 0.014286, "component_ranks": {"bm25": 10}}
+{"query_id": "q9", "rank": 36, "paper_id": "acl:2025.findings-emnlp.1114", "score": 0.014085, "component_ranks": {"bm25": 11}}
+{"query_id": "q9", "rank": 37, "paper_id": "acl:2026.acl-long.519", "score": 0.013889, "component_ranks": {"bm25": 12}}
+{"query_id": "q9", "rank": 38, "paper_id": "acl:2025.findings-emnlp.659", "score": 0.013514, "component_ranks": {"bm25": 14}}
+{"query_id": "q9", "rank": 39, "paper_id": "acl:2025.findings-naacl.206", "score": 0.013514, "component_ranks": {"dense": 14}}
+{"query_id": "q9", "rank": 40, "paper_id": "acl:2026.findings-emnlp.2407", "score": 0.013158, "component_ranks": {"bm25": 16}}
+{"query_id": "q9", "rank": 41, "paper_id": "acl:2025.acl-long.566", "score": 0.013116, "component_ranks": {"bm25": 91, "dense": 94}}
+{"query_id": "q9", "rank": 42, "paper_id": "acl:2025.acl-long.540", "score": 0.012987, "component_ranks": {"bm25": 17}}
+{"query_id": "q9", "rank": 43, "paper_id": "acl:2026.acl-long.212", "score": 0.012987, "component_ranks": {"dense": 17}}
+{"query_id": "q9", "rank": 44, "paper_id": "acl:2026.acl-long.1008", "score": 0.012821, "component_ranks": {"dense": 18}}
+{"query_id": "q9", "rank": 45, "paper_id": "acl:2025.acl-long.1166", "score": 0.012658, "component_ranks": {"bm25": 19}}
+{"query_id": "q9", "rank": 46, "paper_id": "acl:2025.emnlp-main.1122", "score": 0.0125, "component_ranks": {"bm25": 20}}
+{"query_id": "q9", "rank": 47, "paper_id": "acl:2025.findings-naacl.372", "score": 0.0125, "component_ranks": {"dense": 20}}
+{"query_id": "q9", "rank": 48, "paper_id": "acl:2025.findings-naacl.405", "score": 0.012346, "component_ranks": {"dense": 21}}
+{"query_id": "q9", "rank": 49, "paper_id": "acl:2025.emnlp-main.1331", "score": 0.012195, "component_ranks": {"dense": 22}}
+{"query_id": "q9", "rank": 50, "paper_id": "acl:2025.findings-acl.796", "score": 0.012048, "component_ranks": {"dense": 23}}
+{"query_id": "q10", "rank": 1, "paper_id": "acl:2026.findings-emnlp.32", "score": 0.031258, "component_ranks": {"bm25": 5, "dense": 3}}
+{"query_id": "q10", "rank": 2, "paper_id": "acl:2025.emnlp-main.796", "score": 0.028612, "component_ranks": {"bm25": 17, "dense": 4}}
+{"query_id": "q10", "rank": 3, "paper_id": "acl:2026.emnlp-main.2612", "score": 0.028475, "component_ranks": {"bm25": 21, "dense": 2}}
+{"query_id": "q10", "rank": 4, "paper_id": "acl:2025.emnlp-main.83", "score": 0.025385, "component_ranks": {"bm25": 40, "dense": 5}}
+{"query_id": "q10", "rank": 5, "paper_id": "acl:2025.acl-long.1238", "score": 0.024727, "component_ranks": {"bm25": 1, "dense": 60}}
+{"query_id": "q10", "rank": 6, "paper_id": "acl:2026.findings-acl.1744", "score": 0.02381, "component_ranks": {"bm25": 18, "dense": 31}}
+{"query_id": "q10", "rank": 7, "paper_id": "acl:2025.findings-naacl.411", "score": 0.021279, "component_ranks": {"bm25": 10, "dense": 83}}
+{"query_id": "q10", "rank": 8, "paper_id": "acl:2025.acl-long.38", "score": 0.019654, "component_ranks": {"bm25": 90, "dense": 17}}
+{"query_id": "q10", "rank": 9, "paper_id": "acl:2026.acl-long.1430", "score": 0.019494, "component_ranks": {"bm25": 65, "dense": 27}}
+{"query_id": "q10", "rank": 10, "paper_id": "acl:2025.acl-long.335", "score": 0.019456, "component_ranks": {"bm25": 75, "dense": 23}}
+{"query_id": "q10", "rank": 11, "paper_id": "acl:2025.findings-acl.900", "score": 0.019119, "component_ranks": {"bm25": 31, "dense": 63}}
+{"query_id": "q10", "rank": 12, "paper_id": "acl:2025.acl-long.11", "score": 0.018924, "component_ranks": {"bm25": 68, "dense": 30}}
+{"query_id": "q10", "rank": 13, "paper_id": "acl:2026.acl-long.1773", "score": 0.01668, "component_ranks": {"bm25": 39, "dense": 92}}
+{"query_id": "q10", "rank": 14, "paper_id": "acl:2026.findings-eacl.335", "score": 0.016393, "component_ranks": {"dense": 1}}
+{"query_id": "q10", "rank": 15, "paper_id": "acl:2025.acl-long.1407", "score": 0.016129, "component_ranks": {"bm25": 2}}
+{"query_id": "q10", "rank": 16, "paper_id": "acl:2025.acl-long.1088", "score": 0.015873, "component_ranks": {"bm25": 3}}
+{"query_id": "q10", "rank": 17, "paper_id": "acl:2026.acl-long.2055", "score": 0.015625, "component_ranks": {"bm25": 4}}
+{"query_id": "q10", "rank": 18, "paper_id": "acl:2025.acl-long.267", "score": 0.015566, "component_ranks": {"bm25": 70, "dense": 67}}
+{"query_id": "q10", "rank": 19, "paper_id": "acl:2025.findings-acl.1351", "score": 0.015152, "component_ranks": {"bm25": 6}}
+{"query_id": "q10", "rank": 20, "paper_id": "acl:2025.naacl-long.548", "score": 0.015152, "component_ranks": {"dense": 6}}
+{"query_id": "q10", "rank": 21, "paper_id": "acl:2025.findings-emnlp.1361", "score": 0.014925, "component_ranks": {"dense": 7}}
+{"query_id": "q10", "rank": 22, "paper_id": "acl:2026.findings-acl.1553", "score": 0.014925, "component_ranks": {"bm25": 7}}
+{"query_id": "q10", "rank": 23, "paper_id": "acl:2025.emnlp-main.1307", "score": 0.014706, "component_ranks": {"dense": 8}}
+{"query_id": "q10", "rank": 24, "paper_id": "acl:2025.emnlp-main.292", "score": 0.014706, "component_ranks": {"bm25": 8}}
+{"query_id": "q10", "rank": 25, "paper_id": "acl:2025.findings-emnlp.908", "score": 0.014493, "component_ranks": {"bm25": 9}}
+{"query_id": "q10", "rank": 26, "paper_id": "acl:2026.acl-short.22", "score": 0.014493, "component_ranks": {"dense": 9}}
+{"query_id": "q10", "rank": 27, "paper_id": "acl:2026.emnlp-main.629", "score": 0.014286, "component_ranks": {"dense": 10}}
+{"query_id": "q10", "rank": 28, "paper_id": "acl:2025.findings-emnlp.447", "score": 0.014085, "component_ranks": {"bm25": 11}}
+{"query_id": "q10", "rank": 29, "paper_id": "acl:2025.findings-emnlp.587", "score": 0.014085, "component_ranks": {"dense": 11}}
+{"query_id": "q10", "rank": 30, "paper_id": "acl:2026.acl-long.1171", "score": 0.013889, "component_ranks": {"bm25": 12}}
+{"query_id": "q10", "rank": 31, "paper_id": "acl:2026.emnlp-main.1629", "score": 0.013889, "component_ranks": {"dense": 12}}
+{"query_id": "q10", "rank": 32, "paper_id": "acl:2025.acl-long.314", "score": 0.013763, "component_ranks": {"bm25": 76, "dense": 96}}
+{"query_id": "q10", "rank": 33, "paper_id": "acl:2025.findings-acl.1244", "score": 0.013699, "component_ranks": {"bm25": 13}}
+{"query_id": "q10", "rank": 34, "paper_id": "acl:2026.findings-eacl.9", "score": 0.013699, "component_ranks": {"dense": 13}}
+{"query_id": "q10", "rank": 35, "paper_id": "acl:2025.acl-short.20", "score": 0.013514, "component_ranks": {"dense": 14}}
+{"query_id": "q10", "rank": 36, "paper_id": "acl:2025.findings-acl.174", "score": 0.013514, "component_ranks": {"bm25": 14}}
+{"query_id": "q10", "rank": 37, "paper_id": "acl:2025.findings-acl.161", "score": 0.013333, "component_ranks": {"bm25": 15}}
+{"query_id": "q10", "rank": 38, "paper_id": "acl:2025.naacl-long.526", "score": 0.013333, "component_ranks": {"dense": 15}}
+{"query_id": "q10", "rank": 39, "paper_id": "acl:2025.acl-long.970", "score": 0.013158, "component_ranks": {"dense": 16}}
+{"query_id": "q10", "rank": 40, "paper_id": "acl:2025.emnlp-main.320", "score": 0.013158, "component_ranks": {"bm25": 16}}
+{"query_id": "q10", "rank": 41, "paper_id": "acl:2026.emnlp-main.418", "score": 0.012821, "component_ranks": {"dense": 18}}
+{"query_id": "q10", "rank": 42, "paper_id": "acl:2025.acl-long.1101", "score": 0.012658, "component_ranks": {"bm25": 19}}
+{"query_id": "q10", "rank": 43, "paper_id": "acl:2025.acl-long.782", "score": 0.012658, "component_ranks": {"dense": 19}}
+{"query_id": "q10", "rank": 44, "paper_id": "acl:2025.findings-naacl.451", "score": 0.0125, "component_ranks": {"dense": 20}}
+{"query_id": "q10", "rank": 45, "paper_id": "acl:2026.acl-long.1433", "score": 0.0125, "component_ranks": {"bm25": 20}}
+{"query_id": "q10", "rank": 46, "paper_id": "acl:2026.emnlp-main.2692", "score": 0.012346, "component_ranks": {"dense": 21}}
+{"query_id": "q10", "rank": 47, "paper_id": "acl:2025.acl-long.1085", "score": 0.012195, "component_ranks": {"bm25": 22}}
+{"query_id": "q10", "rank": 48, "paper_id": "acl:2026.findings-emnlp.2021", "score": 0.012195, "component_ranks": {"dense": 22}}
+{"query_id": "q10", "rank": 49, "paper_id": "acl:2026.acl-long.1315", "score": 0.012048, "component_ranks": {"bm25": 23}}
+{"query_id": "q10", "rank": 50, "paper_id": "acl:2025.acl-long.1419", "score": 0.011905, "component_ranks": {"dense": 24}}
+{"query_id": "q11", "rank": 1, "paper_id": "acl:2026.findings-acl.765", "score": 0.028177, "component_ranks": {"bm25": 2, "dense": 23}}
+{"query_id": "q11", "rank": 2, "paper_id": "acl:2026.acl-long.162", "score": 0.028125, "component_ranks": {"bm25": 4, "dense": 20}}
+{"query_id": "q11", "rank": 3, "paper_id": "acl:2025.findings-acl.247", "score": 0.026393, "component_ranks": {"bm25": 40, "dense": 1}}
+{"query_id": "q11", "rank": 4, "paper_id": "acl:2026.findings-acl.1690", "score": 0.023823, "component_ranks": {"bm25": 22, "dense": 26}}
+{"query_id": "q11", "rank": 5, "paper_id": "acl:2026.acl-long.1096", "score": 0.023412, "component_ranks": {"bm25": 23, "dense": 28}}
+{"query_id": "q11", "rank": 6, "paper_id": "acl:2025.emnlp-main.1683", "score": 0.023201, "component_ranks": {"bm25": 72, "dense": 4}}
+{"query_id": "q11", "rank": 7, "paper_id": "acl:2025.emnlp-main.1371", "score": 0.022214, "component_ranks": {"bm25": 24, "dense": 37}}
+{"query_id": "q11", "rank": 8, "paper_id": "acl:2025.acl-long.574", "score": 0.021437, "component_ranks": {"bm25": 50, "dense": 21}}
+{"query_id": "q11", "rank": 9, "paper_id": "acl:2026.emnlp-main.1594", "score": 0.021242, "component_ranks": {"bm25": 8, "dense": 93}}
+{"query_id": "q11", "rank": 10, "paper_id": "acl:2026.acl-long.588", "score": 0.020532, "component_ranks": {"bm25": 67, "dense": 19}}
+{"query_id": "q11", "rank": 11, "paper_id": "acl:2026.acl-long.534", "score": 0.020503, "component_ranks": {"bm25": 27, "dense": 51}}
+{"query_id": "q11", "rank": 12, "paper_id": "acl:2026.findings-acl.152", "score": 0.020109, "component_ranks": {"bm25": 13, "dense": 96}}
+{"query_id": "q11", "rank": 13, "paper_id": "acl:2025.findings-naacl.375", "score": 0.019839, "component_ranks": {"bm25": 53, "dense": 31}}
+{"query_id": "q11", "rank": 14, "paper_id": "acl:2025.acl-long.548", "score": 0.017734, "component_ranks": {"bm25": 30, "dense": 91}}
+{"query_id": "q11", "rank": 15, "paper_id": "acl:2025.acl-long.228", "score": 0.016393, "component_ranks": {"bm25": 1}}
+{"query_id": "q11", "rank": 16, "paper_id": "acl:2025.findings-emnlp.1264", "score": 0.016129, "component_ranks": {"dense": 2}}
+{"query_id": "q11", "rank": 17, "paper_id": "acl:2026.findings-acl.758", "score": 0.015873, "component_ranks": {"dense": 3}}
+{"query_id": "q11", "rank": 18, "paper_id": "acl:2026.findings-emnlp.571", "score": 0.015873, "component_ranks": {"bm25": 3}}
+{"query_id": "q11", "rank": 19, "paper_id": "acl:2026.emnlp-main.1211", "score": 0.015635, "component_ranks": {"bm25": 99, "dense": 47}}
+{"query_id": "q11", "rank": 20, "paper_id": "acl:2026.acl-long.1475", "score": 0.015385, "component_ranks": {"dense": 5}}
+{"query_id": "q11", "rank": 21, "paper_id": "acl:2026.emnlp-main.1299", "score": 0.015385, "component_ranks": {"bm25": 5}}
+{"query_id": "q11", "rank": 22, "paper_id": "acl:2025.findings-acl.235", "score": 0.015152, "component_ranks": {"bm25": 6}}
+{"query_id": "q11", "rank": 23, "paper_id": "acl:2025.naacl-long.417", "score": 0.015152, "component_ranks": {"dense": 6}}
+{"query_id": "q11", "rank": 24, "paper_id": "acl:2026.emnlp-main.1014", "score": 0.014925, "component_ranks": {"bm25": 7}}
+{"query_id": "q11", "rank": 25, "paper_id": "acl:2026.findings-acl.1380", "score": 0.014925, "component_ranks": {"dense": 7}}
+{"query_id": "q11", "rank": 26, "paper_id": "acl:2025.findings-acl.1369", "score": 0.014706, "component_ranks": {"dense": 8}}
+{"query_id": "q11", "rank": 27, "paper_id": "acl:2025.acl-long.154", "score": 0.014493, "component_ranks": {"dense": 9}}
+{"query_id": "q11", "rank": 28, "paper_id": "acl:2026.findings-emnlp.1847", "score": 0.014493, "component_ranks": {"bm25": 9}}
+{"query_id": "q11", "rank": 29, "paper_id": "acl:2025.findings-emnlp.1151", "score": 0.014479, "component_ranks": {"bm25": 90, "dense": 68}}
+{"query_id": "q11", "rank": 30, "paper_id": "acl:2026.emnlp-main.2387", "score": 0.014286, "component_ranks": {"bm25": 10}}
+{"query_id": "q11", "rank": 31, "paper_id": "acl:2026.findings-emnlp.1264", "score": 0.014286, "component_ranks": {"dense": 10}}
+{"query_id": "q11", "rank": 32, "paper_id": "acl:2025.emnlp-main.888", "score": 0.014085, "component_ranks": {"dense": 11}}
+{"query_id": "q11", "rank": 33, "paper_id": "acl:2026.acl-long.1709", "score": 0.014085, "component_ranks": {"bm25": 11}}
+{"query_id": "q11", "rank": 34, "paper_id": "acl:2026.eacl-long.261", "score": 0.013889, "component_ranks": {"dense": 12}}
+{"query_id": "q11", "rank": 35, "paper_id": "acl:2026.emnlp-main.1098", "score": 0.013889, "component_ranks": {"bm25": 12}}
+{"query_id": "q11", "rank": 36, "paper_id": "acl:2026.findings-emnlp.1118", "score": 0.013746, "component_ranks": {"bm25": 86, "dense": 85}}
+{"query_id": "q11", "rank": 37, "paper_id": "acl:2025.acl-long.740", "score": 0.013699, "component_ranks": {"dense": 13}}
+{"query_id": "q11", "rank": 38, "paper_id": "acl:2025.naacl-long.526", "score": 0.013514, "component_ranks": {"dense": 14}}
+{"query_id": "q11", "rank": 39, "paper_id": "acl:2026.findings-emnlp.1236", "score": 0.013514, "component_ranks": {"bm25": 14}}
+{"query_id": "q11", "rank": 40, "paper_id": "acl:2026.emnlp-main.1042", "score": 0.013333, "component_ranks": {"bm25": 15}}
+{"query_id": "q11", "rank": 41, "paper_id": "acl:2026.emnlp-main.2268", "score": 0.013333, "component_ranks": {"dense": 15}}
+{"query_id": "q11", "rank": 42, "paper_id": "acl:2025.emnlp-main.1422", "score": 0.013158, "component_ranks": {"dense": 16}}
+{"query_id": "q11", "rank": 43, "paper_id": "acl:2026.findings-acl.127", "score": 0.013158, "component_ranks": {"bm25": 16}}
+{"query_id": "q11", "rank": 44, "paper_id": "acl:2025.acl-long.1405", "score": 0.012987, "component_ranks": {"dense": 17}}
+{"query_id": "q11", "rank": 45, "paper_id": "acl:2026.findings-emnlp.1678", "score": 0.012987, "component_ranks": {"bm25": 17}}
+{"query_id": "q11", "rank": 46, "paper_id": "acl:2025.findings-emnlp.504", "score": 0.012821, "component_ranks": {"dense": 18}}
+{"query_id": "q11", "rank": 47, "paper_id": "acl:2026.emnlp-main.220", "score": 0.012821, "component_ranks": {"bm25": 18}}
+{"query_id": "q11", "rank": 48, "paper_id": "acl:2026.acl-long.1627", "score": 0.012658, "component_ranks": {"bm25": 19}}
+{"query_id": "q11", "rank": 49, "paper_id": "acl:2026.acl-long.1284", "score": 0.0125, "component_ranks": {"bm25": 20}}
+{"query_id": "q11", "rank": 50, "paper_id": "acl:2026.findings-acl.362", "score": 0.012346, "component_ranks": {"bm25": 21}}

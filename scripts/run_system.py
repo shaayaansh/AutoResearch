@@ -2,7 +2,7 @@
 """Run the system on every eval question and save what it returned. No judging happens here.
 
     python scripts/run_system.py                         # BM25, top 50, all of eval/queries.jsonl
-    python scripts/run_system.py --system hybrid -k 50      # bm25 | dense | hybrid
+    python scripts/run_system.py --system hybrid -k 50      # bm25 | dense | hybrid | aspects | hyde
     python scripts/run_system.py --system bm25 -k 50 --queries q1 q3
 
 Writes eval/runs/<run_id>/:
@@ -55,12 +55,15 @@ def main():
     out_dir.mkdir(parents=True, exist_ok=True)
 
     per_query = {}
+    llm_total = {"calls": 0, "input_tokens": 0, "output_tokens": 0, "cost_usd": 0.0}
     with (out_dir / "results.jsonl").open("w", encoding="utf-8") as f:
         for q in tqdm(queries, desc=f"{args.system} k={args.k}", unit="query"):
             t = time.perf_counter()
             hits, diag = system(q["question"], args.k)
             latency = round(time.perf_counter() - t, 4)
             per_query[q["id"]] = {"n_results": len(hits), "latency_s": latency, **diag}
+            for key in llm_total:  # systems that call an LLM report its usage per question
+                llm_total[key] += diag.get("llm_usage", {}).get(key, 0)
             for h in hits:
                 row = {"query_id": q["id"], "rank": h.rank, "paper_id": h.paper_id,
                        "score": round(float(h.score), 6)}
@@ -68,6 +71,11 @@ def main():
                     row["component_ranks"] = h.component_ranks
                 f.write(json.dumps(row) + "\n")
             matched = f" · {diag['n_matched']:,} of {diag['n_docs']:,} matched" if "n_matched" in diag else ""
+            if "n_aspects" in diag:
+                matched += (f" · {diag['n_aspects']} aspects"
+                            f"{' (cached plan)' if diag['plan_cached'] else ''}"
+                            f" · coverage {list(diag['final_coverage_by_aspect'].values())}"
+                            f" · ${diag['llm_usage']['cost_usd']:.4f}")
             if "overlap_at_depth" in diag:
                 matched += (f" · top-{diag['depth']} overlap {diag['overlap_at_depth']} · fused: "
                             f"{diag['fused_from_both']} both / {diag['fused_bm25_only']} bm25 / "
@@ -78,10 +86,13 @@ def main():
         "run_id": run_id, "system": args.system, "k": args.k,
         "queries_file": str(args.queries_file.relative_to(PROJECT_ROOT)),
         "queries": {q["id"]: q["question"] for q in queries},
-        "corpus_size": corpus_size, "per_query": per_query,
+        "corpus_size": corpus_size, "llm_usage_total": {**llm_total, "cost_usd": round(llm_total["cost_usd"], 6)},
+        "per_query": per_query,
         "created_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
     }
     (out_dir / "run_meta.json").write_text(json.dumps(meta, indent=2, ensure_ascii=False))
+    if llm_total["calls"]:
+        print(f"\nSystem LLM usage: {llm_total['calls']} calls · ${llm_total['cost_usd']:.4f}")
     print(f"\nSaved {out_dir}\nNext: python scripts/llm_judge.py {out_dir.relative_to(PROJECT_ROOT)}")
 
 
