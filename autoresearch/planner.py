@@ -207,3 +207,113 @@ class Planner:
             with self.cache_path.open("a", encoding="utf-8") as f:
                 f.write(json.dumps(record, ensure_ascii=False) + "\n")
         return plan, usage, False
+
+
+# ---------------------------------------------------------------------------------------------
+# v3: revising weak aspects from verifier feedback (the agent loop)
+# ---------------------------------------------------------------------------------------------
+REVISER_VERSION = "v2"  # v2: question-level target, COVERED/DEEPER/WEAK statuses
+REVISION_CACHE = DATA_DIR / "cache" / "revisions.jsonl"
+
+REVISER_INSTRUCTIONS = """\
+You are the planner of a literature-search agent over ACL, EMNLP, NAACL and EACL papers \
+(2025-2026), searched with BM25 keyword search and dense embedding search. You already planned \
+aspects for a research question and ran a search round. A verifier then read the retrieved \
+abstracts for each aspect and reported how many were relevant and why the others were not.
+
+The question needs a target number of relevant papers in total; each aspect has an equal \
+share of that target. Every aspect has a status, set by the system:
+- COVERED: reached its share. Do not change it.
+- DEEPER: its queries are working (a good share of its results were relevant); the system will \
+verify more of the same results next round. Do not change it.
+- WEAK: below its share and its results were mostly irrelevant. Rewrite its queries.
+
+Rules:
+- For each WEAK aspect, write a new `bm25_query` and `hyde_abstract` that fix the reported \
+failures:
+  * wrong meaning (a keyword matched a different concept): drop or disambiguate that keyword;
+  * lost core subject (right method, wrong subject): put the question's core subject terms \
+into both queries;
+  * too generic: replace broad words with specific technical terms, synonyms and acronyms;
+  * the good examples show what relevant papers look like: borrow their terminology.
+- Keep each aspect's meaning. Its name and description stay the same; only the queries change. \
+Never make an aspect broader or easier to satisfy.
+- Add a new aspect only if the verifier's "missing" notes show a sub-topic the question clearly \
+requires that no aspect covers; at most one new aspect per round, and never more than 5 aspects \
+in total.
+- Set `done` to true if the notes suggest rewriting is unlikely to find more relevant papers \
+(e.g. the topic is sparse in these venues). Then leave `updates` and `new_aspects` empty; \
+DEEPER aspects still continue.
+- BM25 queries follow the same rules as before: 6-15 space-separated terms, no quotes or \
+operators, no filler, avoid words that appear in almost every NLP paper (model, language, LLM, \
+method, approach, task, performance, results, evaluation). HyDE abstracts are 100-150 words, \
+written like an ACL abstract.
+"""
+
+
+class AspectUpdate(BaseModel):
+    aspect_id: str = Field(description="Id of the weak aspect being revised, e.g. a2")
+    reason: str = Field(description="One sentence: which failure this revision fixes")
+    bm25_query: str
+    hyde_abstract: str
+
+
+class Revision(BaseModel):
+    reasoning: str = Field(description="Two or three sentences on coverage and what to change")
+    done: bool
+    updates: list[AspectUpdate]
+    new_aspects: list[Aspect]
+
+
+def format_revision_input(question: str, aspects: list[dict], round_no: int, max_rounds: int,
+                          target: int, total_relevant: int, share: int) -> str:
+    """aspects: [{id, name, description, status, bm25_query, hyde_abstract, n_relevant, n_checked,
+    good_titles, failure_patterns, missing}]"""
+    out = [f"Research question:\n{question}\n",
+           f"Search round {round_no} of {max_rounds} just finished. "
+           f"The question has {total_relevant} of its target {target} relevant papers; "
+           f"each aspect's share is {share}.\n"]
+    for a in aspects:
+        status = a["status"]
+        out.append(f"--- {a['id']} [{status}] {a['name']}\nDescription: {a['description']}\n"
+                   f"Relevant so far: {a['n_relevant']} of {a['n_checked']} checked\n"
+                   f"Current BM25 query: {a['bm25_query']}\nCurrent HyDE abstract: {a['hyde_abstract']}")
+        if a["good_titles"]:
+            out.append("Good examples (relevant):\n" + "\n".join(f"  - {t}" for t in a["good_titles"]))
+        if a["failure_patterns"]:
+            out.append("Why irrelevant papers were retrieved:\n" + "\n".join(f"  - {f}" for f in a["failure_patterns"]))
+        if a["missing"]:
+            out.append("Missing sub-topics noted:\n" + "\n".join(f"  - {m}" for m in a["missing"]))
+        out.append("")
+    return "\n".join(out)
+
+
+class Reviser:
+    """The planner in its second role: revising queries after verification. Cached by the exact
+    input (question + coverage + notes), so identical situations give identical revisions."""
+
+    def __init__(self, llm: LLM, cache_path: Path = REVISION_CACHE, use_cache: bool = True):
+        self.llm, self.cache_path, self.use_cache = llm, cache_path, use_cache
+        self._cache: dict[tuple, dict] = {}
+        if use_cache and cache_path.exists():
+            for line in cache_path.open(encoding="utf-8"):
+                r = json.loads(line)
+                self._cache[(r["input_hash"], r["model"], r["reviser_version"])] = r
+
+    async def revise(self, input_text: str) -> tuple[Revision, Usage, bool]:
+        import hashlib
+
+        h = hashlib.sha1(input_text.encode()).hexdigest()
+        key = (h, self.llm.model, REVISER_VERSION)
+        if self.use_cache and key in self._cache:
+            return Revision.model_validate(self._cache[key]["revision"]), Usage(), True
+        rev, usage = await self.llm.parse(instructions=REVISER_INSTRUCTIONS, input=input_text,
+                                          schema=Revision, cache_key="reviser")
+        rec = {"input_hash": h, "model": self.llm.model, "reviser_version": REVISER_VERSION,
+               "input": input_text, "revision": rev.model_dump(), "usage": usage.as_dict()}
+        self._cache[key] = rec
+        if self.use_cache:
+            self.cache_path.parent.mkdir(parents=True, exist_ok=True)
+            with self.cache_path.open("a", encoding="utf-8") as f:
+                f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+        return rev, usage, False
