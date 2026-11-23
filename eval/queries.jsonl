@@ -1,11 +1,40 @@
-{"id": "q1", "question": "How is structural similarity in stories captured? How is it defined and what embedding models excel at it?"}
-{"id": "q2", "question": "How do we build personalized agentic systems for education? How do we evaluate them?"}
-{"id": "q3", "question": "How do we build deep research agents? How do we evaluate every component of deep research agents?"}
-{"id": "q4", "question": "Where do hallucinations in LLMs come from? Is it in the training data? How can we combat it?"}
-{"id": "q5", "question": "What are the most effective post-training methods for building domain-specific agents?"}
-{"id": "q6", "question": "How are LLMs used to generate political stories or narratives, and how is their capability evaluated?"}
-{"id": "q7", "question": "How do we measure whether stories can be linked back to real individuals or leak private information, and what methods reduce this re-identification risk?"}
-{"id": "q8", "question": "How can knowledge graphs be combined with LLMs to answer complex multi-hop questions?"}
-{"id": "q9", "question": "What recent techniques improve knowledge distillation from large to small language models?"}
-{"id": "q10", "question": "How reliable are LLMs as automatic evaluators of generated text"}
-{"id": "q11", "question": "When should LLM systems rely on long-context models versus retrieval-augmented generation or explicit memory mechanisms?"}
+{"id": "q1", "question": "How is structural similarity in stories captured? How is it defined and what embedding models excel at it?", "style": "explicit"}
+{"id": "q2", "question": "How do we build personalized agentic systems for education? How do we evaluate them?", "style": "explicit"}
+{"id": "q3", "question": "How do we build deep research agents? How do we evaluate every component of deep research agents?", "style": "explicit"}
+{"id": "q4", "question": "Where do hallucinations in LLMs come from? Is it in the training data? How can we combat it?", "style": "explicit"}
+{"id": "q5", "question": "What are the most effective post-training methods for building domain-specific agents?", "style": "implicit"}
+{"id": "q6", "question": "How are LLMs used to generate political stories or narratives, and how is their capability evaluated?", "style": "explicit"}
+{"id": "q7", "question": "How do we measure whether stories can be linked back to real individuals or leak private information, and what methods reduce this re-identification risk?", "style": "explicit"}
+{"id": "q8", "question": "How can knowledge graphs be combined with LLMs to answer complex multi-hop questions?", "style": "implicit"}
+{"id": "q9", "question": "What recent techniques improve knowledge distillation from large to small language models?", "style": "focused"}
+{"id": "q10", "question": "How reliable are LLMs as automatic evaluators of generated text", "style": "focused"}
+{"id": "q11", "question": "When should LLM systems rely on long-context models versus retrieval-augmented generation or explicit memory mechanisms?", "style": "explicit"}
+{"id": "q12", "question": "What does it take to train an LLM agent that calls external APIs reliably?", "style": "implicit", "reference_aspects": ["tool-use training data", "function-calling formats", "error recovery", "tool-use benchmarks"]}
+{"id": "q13", "question": "How can a chatbot be stopped from agreeing with users who are wrong?", "style": "implicit", "reference_aspects": ["sycophancy causes (preference training)", "measuring sycophancy", "mitigation", "honesty/calibration"]}
+{"id": "q14", "question": "How would you build a strong language model for a language with almost no digital text?", "style": "implicit", "reference_aspects": ["data collection / synthetic data", "cross-lingual transfer", "vocabulary adaptation", "low-resource benchmarks"]}
+{"id": "q15", "question": "Can a teacher reliably tell whether an essay was written by AI?", "style": "implicit", "reference_aspects": ["detectors", "watermarking", "robustness to paraphrasing", "bias against non-native writers"]}
+{"id": "q16", "question": "How can claims in online news be verified automatically?", "style": "implicit", "reference_aspects": ["claim detection", "evidence retrieval", "claim decomposition", "verdict and explanation"]}
+{"id": "q17", "question": "How safe are open-weight LLMs against users trying to extract harmful content?", "style": "implicit", "reference_aspects": ["jailbreak attacks", "defenses", "safety alignment", "red-teaming evaluation"]}
+{"id": "q18", "question": "Whose values do LLMs reflect when answering moral questions in different cultures?", "style": "implicit", "reference_aspects": ["cultural bias measurement", "multilingual value surveys", "pluralistic alignment"]}
+{"id": "q19", "question": "How well can multimodal models read the figures of a scientific paper?", "style": "implicit", "reference_aspects": ["chart understanding", "table understanding", "document understanding", "scientific figure QA"]}
+{"id": "q20", "question": "What makes step-by-step mathematical reasoning in LLMs trustworthy?", "style": "implicit", "reference_aspects": ["process reward models", "verifiers", "self-consistency", "faithfulness of reasoning chains"]}
+{"id": "q21", "question": "What is lost when a large language model is compressed to run on a phone?", "style": "implicit", "reference_aspects": ["quantization", "pruning", "capability loss (reasoning, multilingual, safety)", "efficiency evaluation"]}
+{"id": "q22", "question": "Can LLMs replace human participants in social science surveys?", "style": "implicit", "reference_aspects": ["persona simulation", "opinion alignment", "demographic representativeness", "faithfulness"]}
+{"id": "q23", "question": "How much can we trust the leaderboard scores of modern LLMs?", "style": "implicit", "reference_aspects": ["contamination", "contamination detection", "prompt sensitivity", "benchmark saturation"]}
+{"id": "q24", "question": "What is the best way to build a voice assistant on top of language models?", "style": "implicit", "reference_aspects": ["end-to-end speech LMs", "cascaded ASR+LLM+TTS", "turn-taking / spoken dialogue", "speech evaluation"]}
+{"id": "q25", "question": "How can hospitals safely use LLMs to draft discharge summaries?", "style": "implicit", "reference_aspects": ["clinical summarization", "factual error evaluation", "clinician evaluation", "privacy"]}
+{"id": "q26", "question": "How can outdated facts inside an LLM be corrected without retraining it?", "style": "implicit", "reference_aspects": ["knowledge editing", "ripple effects / multi-hop generalization", "side effects", "retrieval as an alternative"]}
+{"id": "q27", "question": "How well do language technologies serve bilingual speakers who mix languages mid-sentence?", "style": "implicit", "reference_aspects": ["code-switching understanding", "code-switched generation", "data and benchmarks"]}
+{"id": "q28", "question": "How should machine translation be evaluated now that LLMs translate well?", "style": "implicit", "reference_aspects": ["LLM-as-judge for MT", "learned metrics (COMET)", "human evaluation (MQM)", "document-level evaluation"]}
+{"id": "q29", "question": "What happens when retrieved documents contradict what an LLM already believes?", "style": "implicit", "reference_aspects": ["knowledge conflicts", "context faithfulness", "resolution methods", "misinformation in retrieval"]}
+{"id": "q30", "question": "When should we trust an LLM's answer?", "style": "implicit", "reference_aspects": ["uncertainty estimation", "calibration", "verbalized confidence", "abstention"]}
+{"id": "q31", "question": "Do groups of LLM agents reason better than a single model?", "style": "implicit", "reference_aspects": ["multi-agent debate", "collaboration frameworks", "failure modes (conformity)", "cost-matched comparison"]}
+{"id": "q32", "question": "Can LLMs safely give emotional support to people in distress?", "style": "implicit", "reference_aspects": ["empathetic dialogue generation", "support-quality evaluation", "safety risks"]}
+{"id": "q33", "question": "Can LLMs replace crowdworkers for building NLP datasets?", "style": "implicit", "reference_aspects": ["LLM annotation", "quality vs. humans", "label bias", "cost"]}
+{"id": "q34", "question": "Which alignment algorithm should a lab use to learn from human preferences?", "style": "implicit", "reference_aspects": ["DPO and variants", "PPO-based RLHF", "reward modeling", "failure modes (reward hacking, length bias)"]}
+{"id": "q35", "question": "How close are LLMs to doing the work of a junior lawyer?", "style": "implicit", "reference_aspects": ["legal reasoning", "legal benchmarks", "legal retrieval", "legal hallucination"]}
+{"id": "q36", "question": "Do LLMs understand the order and duration of events described in text?", "style": "implicit", "reference_aspects": ["temporal reasoning", "event ordering", "duration", "timeline extraction"]}
+{"id": "q37", "question": "Where inside a transformer does a language model store what it knows?", "style": "implicit", "reference_aspects": ["knowledge localization", "circuits / neurons", "probing", "using findings for editing/steering"]}
+{"id": "q38", "question": "What happens when language models are trained on text written by other language models?", "style": "implicit", "reference_aspects": ["synthetic training data", "model collapse", "diversity loss", "quality filtering"]}
+{"id": "q39", "question": "How can platforms use LLMs to moderate hateful content in many languages?", "style": "implicit", "reference_aspects": ["hate speech detection", "implicit hate", "multilingual transfer", "detector bias"]}
+{"id": "q40", "question": "Why do vision-language models describe objects that are not in the image?", "style": "implicit", "reference_aspects": ["hallucination causes", "measurement benchmarks", "mitigation", "visual grounding"]}
