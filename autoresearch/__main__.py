@@ -40,7 +40,7 @@ def cmd_build_index(args) -> None:
 
 def cmd_search(args) -> None:
     corpus = Corpus.load()
-    search = get_system(args.retriever)
+    search = get_system(args.retriever, verbose=True)
     tracer = Tracer("search")
 
     if args.explain:

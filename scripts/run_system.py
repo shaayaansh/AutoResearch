@@ -42,13 +42,15 @@ def main():
     ap.add_argument("-k", type=int, default=50)
     ap.add_argument("--queries-file", type=Path, default=EVAL_DIR / "queries.jsonl")
     ap.add_argument("--queries", nargs="+", help="query ids to run (default: all)")
+    ap.add_argument("-q", "--quiet", action="store_true",
+                    help="don't narrate the agent loop (verify/agent systems narrate by default)")
     args = ap.parse_args()
 
     queries = load_queries(args.queries_file, args.queries)
     if not queries:
         sys.exit("No queries selected.")
     corpus_size = len(Corpus.load())
-    system = get_system(args.system)
+    system = get_system(args.system, verbose=not args.quiet)
 
     run_id = f"{datetime.now():%Y%m%d-%H%M%S}-{args.system}-k{args.k}"
     out_dir = EVAL_DIR / "runs" / run_id
@@ -61,6 +63,11 @@ def main():
             t = time.perf_counter()
             hits, diag = system(q["question"], args.k)
             latency = round(time.perf_counter() - t, 4)
+            trace = diag.pop("trace", None)
+            if trace is not None:  # v3: every planner/verifier/reviser exchange, one line each
+                with (out_dir / "trace.jsonl").open("a", encoding="utf-8") as tf:
+                    for ev in trace:
+                        tf.write(json.dumps({"query_id": q["id"], **ev}, ensure_ascii=False) + "\n")
             per_query[q["id"]] = {"n_results": len(hits), "latency_s": latency, **diag}
             for key in llm_total:  # systems that call an LLM report its usage per question
                 llm_total[key] += diag.get("llm_usage", {}).get(key, 0)
@@ -76,6 +83,10 @@ def main():
                             f"{' (cached plan)' if diag['plan_cached'] else ''}"
                             f" · coverage {list(diag['final_coverage_by_aspect'].values())}"
                             f" · ${diag['llm_usage']['cost_usd']:.4f}")
+            if "n_rounds" in diag:  # v3: verifiers (+ loop)
+                matched += (f" · {diag['n_rounds']} round(s), stop: {diag['stop_reason']}"
+                            f" · verified relevant {diag['n_verified_relevant']}"
+                            f" · top-{args.k} tiers {diag['final_tiers']}")
             if "overlap_at_depth" in diag:
                 matched += (f" · top-{diag['depth']} overlap {diag['overlap_at_depth']} · fused: "
                             f"{diag['fused_from_both']} both / {diag['fused_bm25_only']} bm25 / "
