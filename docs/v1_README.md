@@ -1,5 +1,8 @@
 # AutoResearch v1 — Hybrid search: BM25 + dense embeddings, fused with RRF
 
+> **Update: 40-question eval (2026-11-23).** Re-evaluated with all versions on the expanded eval set (q1–q40, 29 new implicit multi-aspect questions): P@10 0.780 · P@50 0.625 · R@50 0.409 · nDCG@50 0.741. Hybrid search improves on BM25 everywhere, but on implicit questions it is still far behind the planner-based systems. Full comparison: [`eval_40_results.md`](eval_40_results.md).
+<!-- ## Update: 40-question eval -->
+
 v1 adds **dense retrieval** (bge-base embeddings) and fuses it with v0's BM25 using
 **Reciprocal Rank Fusion**. Still **no LLM in the system** — only the evaluation judge uses one.
 v1 also upgrades evaluation from precision-only to **pooled recall and nDCG**, because v0's

@@ -1,5 +1,8 @@
 # AutoResearch v0 — BM25 keyword search
 
+> **Update: 40-question eval (2026-11-23).** Re-evaluated with all versions on the expanded eval set (q1–q40, 29 new implicit multi-aspect questions): P@10 0.645 · P@50 0.535 · R@50 0.337 · nDCG@50 0.652. v0 is the weakest system on implicit questions (R@50 0.320), where the question's own words rarely match the papers' terms. Full comparison: [`eval_40_results.md`](eval_40_results.md).
+<!-- ## Update: 40-question eval -->
+
 v0 is the baseline: plain keyword search over paper titles and abstracts. **There is no LLM
 and no neural model.** Every later version is measured against it, and in v2 it becomes a
 tool the planner agent calls.

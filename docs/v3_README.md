@@ -1,5 +1,8 @@
 # AutoResearch v3: verifiers + agent loop
 
+> **Update: 40-question eval (2026-11-23).** Re-evaluated with all versions on the expanded eval set (q1–q40, 29 new implicit multi-aspect questions): P@10 0.965 · P@50 0.864 · R@50 0.592 · nDCG@50 0.915. v3 is best on every metric (MRR tied with v2.1) and on 37 of 40 questions by nDCG@50; 95% of verified papers are judged relevant. The results below are the original 11-question evaluation. Full comparison: [`eval_40_results.md`](eval_40_results.md).
+<!-- ## Update: 40-question eval -->
+
 v2.1 searches once: the planner writes queries, and whatever they return is the answer. v3 adds
 the two things that make it an **agent**: it **checks** its own results, and it **acts on what it
 learns**. One verifier per aspect reads the retrieved abstracts and keeps or drops each paper.
