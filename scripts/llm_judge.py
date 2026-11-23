@@ -81,11 +81,22 @@ class Judgment(BaseModel):
     score: Literal[1, 2, 3, 4, 5]
 
 
+def paper_for(row: dict, corpus) -> dict:
+    """Our own runs reference corpus papers by id. External runs (e.g. Google Scholar) may contain
+    papers outside the corpus; those rows carry the paper's title/abstract/venue inline."""
+    if "paper" in row:
+        p = row["paper"]
+        return {"id": row["paper_id"], "title": p["title"], "abstract": p.get("abstract", ""),
+                "venue": p.get("venue") or "", "year": p.get("year") or "", "url": p.get("url", "")}
+    return corpus.get(row["paper_id"])
+
+
 def format_input(question: str, paper: dict) -> str:
     # Question first, paper last: calls for the same question share a prefix (prompt caching).
     abstract = paper.get("abstract") or "(no abstract available)"
+    venue = f"{paper.get('venue') or ''} {paper.get('year') or ''}".strip() or "unknown"
     return (f"Research question:\n{question}\n\n"
-            f"Paper title: {paper['title']}\nVenue: {paper['venue']} {paper['year']}\n"
+            f"Paper title: {paper['title']}\nVenue: {venue}\n"
             f"Abstract: {abstract}")
 
 
@@ -179,7 +190,7 @@ async def run(args) -> None:
             rows.sort(key=lambda r: r["rank"])
             t0 = time.perf_counter()
             results = await asyncio.gather(*(
-                judge_one(llm, cache, sem, qid, question, corpus.get(r["paper_id"])) for r in rows))
+                judge_one(llm, cache, sem, qid, question, paper_for(r, corpus)) for r in rows))
 
             usage, n_cached, scores = Usage(), 0, []
             for row, (j, u) in zip(rows, results):
@@ -187,7 +198,7 @@ async def run(args) -> None:
                     n_cached += 1
                 elif u is not None:
                     usage.add(u)
-                p = corpus.get(row["paper_id"])
+                p = paper_for(row, corpus)
                 scores.append(j.get("score"))
                 out.write(json.dumps({
                     "query_id": qid, "rank": row["rank"], "paper_id": row["paper_id"],

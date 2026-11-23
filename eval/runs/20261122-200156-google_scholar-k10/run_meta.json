@@ -1,0 +1,125 @@
+{
+  "run_id": "20261122-200156-google_scholar-k10",
+  "system": "google_scholar",
+  "k": 10,
+  "external": true,
+  "collection": "manual: Google Scholar web UI, top 10 per question, exact question text",
+  "queries": {
+    "q1": "How is structural similarity in stories captured? How is it defined and what embedding models excel at it?",
+    "q2": "How do we build personalized agentic systems for education? How do we evaluate them?",
+    "q3": "How do we build deep research agents? How do we evaluate every component of deep research agents?",
+    "q4": "Where do hallucinations in LLMs come from? Is it in the training data? How can we combat it?",
+    "q5": "What are the most effective post-training methods for building domain-specific agents?",
+    "q6": "How are LLMs used to generate political stories or narratives, and how is their capability evaluated?",
+    "q7": "How do we measure whether stories can be linked back to real individuals or leak private information, and what methods reduce this re-identification risk?",
+    "q8": "How can knowledge graphs be combined with LLMs to answer complex multi-hop questions?",
+    "q9": "What recent techniques improve knowledge distillation from large to small language models?",
+    "q10": "How reliable are LLMs as automatic evaluators of generated text",
+    "q11": "When should LLM systems rely on long-context models versus retrieval-augmented generation or explicit memory mechanisms?"
+  },
+  "per_query": {
+    "q1": {
+      "n_results": 10,
+      "n_in_corpus": 0,
+      "abstract_sources": {
+        "openalex": 8,
+        "manual": 2
+      },
+      "gs_filters": "Since 2025, sort by relevance"
+    },
+    "q2": {
+      "n_results": 10,
+      "n_in_corpus": 0,
+      "abstract_sources": {
+        "openalex": 8,
+        "manual": 2
+      },
+      "gs_filters": "Since 2025, sort by relevance"
+    },
+    "q3": {
+      "n_results": 10,
+      "n_in_corpus": 0,
+      "abstract_sources": {
+        "manual": 1,
+        "openalex": 9
+      },
+      "gs_filters": "Since 2025, sort by relevance"
+    },
+    "q4": {
+      "n_results": 10,
+      "n_in_corpus": 4,
+      "abstract_sources": {
+        "manual": 1,
+        "openalex": 5,
+        "corpus": 4
+      },
+      "gs_filters": "Since 2025, sort by relevance"
+    },
+    "q5": {
+      "n_results": 10,
+      "n_in_corpus": 0,
+      "abstract_sources": {
+        "openalex": 9,
+        "manual": 1
+      },
+      "gs_filters": "Since 2025, sort by relevance"
+    },
+    "q6": {
+      "n_results": 10,
+      "n_in_corpus": 0,
+      "abstract_sources": {
+        "openalex": 7,
+        "manual": 3
+      },
+      "gs_filters": "Since 2025, sort by relevance"
+    },
+    "q7": {
+      "n_results": 10,
+      "n_in_corpus": 0,
+      "abstract_sources": {
+        "openalex": 8,
+        "manual": 2
+      },
+      "gs_filters": "Since 2025, sort by relevance"
+    },
+    "q8": {
+      "n_results": 10,
+      "n_in_corpus": 0,
+      "abstract_sources": {
+        "openalex": 8,
+        "manual": 2
+      },
+      "gs_filters": "Since 2025, sort by relevance"
+    },
+    "q9": {
+      "n_results": 10,
+      "n_in_corpus": 0,
+      "abstract_sources": {
+        "openalex": 8,
+        "manual": 2
+      },
+      "gs_filters": "Since 2025, sort by relevance"
+    },
+    "q10": {
+      "n_results": 10,
+      "n_in_corpus": 1,
+      "abstract_sources": {
+        "manual": 3,
+        "openalex": 6,
+        "corpus": 1
+      },
+      "gs_filters": "Since 2025, sort by relevance"
+    },
+    "q11": {
+      "n_results": 10,
+      "n_in_corpus": 1,
+      "abstract_sources": {
+        "manual": 5,
+        "openalex": 4,
+        "corpus": 1
+      },
+      "gs_filters": null
+    }
+  },
+  "created_at": "2026-11-23T01:01:56+00:00"
+}
