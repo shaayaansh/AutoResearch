@@ -1,0 +1,1393 @@
+{
+  "run_id": "20261123-123401-hybrid-k50",
+  "system": "hybrid",
+  "k": 50,
+  "queries_file": "eval/queries.jsonl",
+  "queries": {
+    "q1": "How is structural similarity in stories captured? How is it defined and what embedding models excel at it?",
+    "q2": "How do we build personalized agentic systems for education? How do we evaluate them?",
+    "q3": "How do we build deep research agents? How do we evaluate every component of deep research agents?",
+    "q4": "Where do hallucinations in LLMs come from? Is it in the training data? How can we combat it?",
+    "q5": "What are the most effective post-training methods for building domain-specific agents?",
+    "q6": "How are LLMs used to generate political stories or narratives, and how is their capability evaluated?",
+    "q7": "How do we measure whether stories can be linked back to real individuals or leak private information, and what methods reduce this re-identification risk?",
+    "q8": "How can knowledge graphs be combined with LLMs to answer complex multi-hop questions?",
+    "q9": "What recent techniques improve knowledge distillation from large to small language models?",
+    "q10": "How reliable are LLMs as automatic evaluators of generated text",
+    "q11": "When should LLM systems rely on long-context models versus retrieval-augmented generation or explicit memory mechanisms?",
+    "q12": "What does it take to train an LLM agent that calls external APIs reliably?",
+    "q13": "How can a chatbot be stopped from agreeing with users who are wrong?",
+    "q14": "How would you build a strong language model for a language with almost no digital text?",
+    "q15": "Can a teacher reliably tell whether an essay was written by AI?",
+    "q16": "How can claims in online news be verified automatically?",
+    "q17": "How safe are open-weight LLMs against users trying to extract harmful content?",
+    "q18": "Whose values do LLMs reflect when answering moral questions in different cultures?",
+    "q19": "How well can multimodal models read the figures of a scientific paper?",
+    "q20": "What makes step-by-step mathematical reasoning in LLMs trustworthy?",
+    "q21": "What is lost when a large language model is compressed to run on a phone?",
+    "q22": "Can LLMs replace human participants in social science surveys?",
+    "q23": "How much can we trust the leaderboard scores of modern LLMs?",
+    "q24": "What is the best way to build a voice assistant on top of language models?",
+    "q25": "How can hospitals safely use LLMs to draft discharge summaries?",
+    "q26": "How can outdated facts inside an LLM be corrected without retraining it?",
+    "q27": "How well do language technologies serve bilingual speakers who mix languages mid-sentence?",
+    "q28": "How should machine translation be evaluated now that LLMs translate well?",
+    "q29": "What happens when retrieved documents contradict what an LLM already believes?",
+    "q30": "When should we trust an LLM's answer?",
+    "q31": "Do groups of LLM agents reason better than a single model?",
+    "q32": "Can LLMs safely give emotional support to people in distress?",
+    "q33": "Can LLMs replace crowdworkers for building NLP datasets?",
+    "q34": "Which alignment algorithm should a lab use to learn from human preferences?",
+    "q35": "How close are LLMs to doing the work of a junior lawyer?",
+    "q36": "Do LLMs understand the order and duration of events described in text?",
+    "q37": "Where inside a transformer does a language model store what it knows?",
+    "q38": "What happens when language models are trained on text written by other language models?",
+    "q39": "How can platforms use LLMs to moderate hateful content in many languages?",
+    "q40": "Why do vision-language models describe objects that are not in the image?"
+  },
+  "corpus_size": 17933,
+  "llm_usage_total": {
+    "calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cost_usd": 0.0
+  },
+  "per_query": {
+    "q1": {
+      "n_results": 50,
+      "latency_s": 0.0463,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "structur",
+          "similar",
+          "stori",
+          "captur",
+          "defin",
+          "embed",
+          "model",
+          "excel"
+        ],
+        "n_matched": 16831,
+        "term_doc_freq": {
+          "structur": 3740,
+          "similar": 1430,
+          "stori": 137,
+          "captur": 1948,
+          "defin": 655,
+          "embed": 1296,
+          "model": 15883,
+          "excel": 502
+        }
+      },
+      "overlap_at_depth": 32,
+      "fused_from_both": 32,
+      "fused_bm25_only": 8,
+      "fused_dense_only": 10
+    },
+    "q2": {
+      "n_results": 50,
+      "latency_s": 0.0258,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "build",
+          "person",
+          "agent",
+          "system",
+          "educ",
+          "evalu"
+        ],
+        "n_matched": 11336,
+        "term_doc_freq": {
+          "build": 1280,
+          "person": 721,
+          "agent": 3016,
+          "system": 3082,
+          "educ": 280,
+          "evalu": 8168
+        }
+      },
+      "overlap_at_depth": 26,
+      "fused_from_both": 26,
+      "fused_bm25_only": 12,
+      "fused_dense_only": 12
+    },
+    "q3": {
+      "n_results": 50,
+      "latency_s": 0.072,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "build",
+          "deep",
+          "research",
+          "agent",
+          "evalu",
+          "compon",
+          "deep",
+          "research",
+          "agent"
+        ],
+        "n_matched": 11614,
+        "term_doc_freq": {
+          "build": 1280,
+          "deep": 487,
+          "research": 2559,
+          "agent": 3016,
+          "evalu": 8168,
+          "compon": 1059
+        }
+      },
+      "overlap_at_depth": 36,
+      "fused_from_both": 36,
+      "fused_bm25_only": 8,
+      "fused_dense_only": 6
+    },
+    "q4": {
+      "n_results": 50,
+      "latency_s": 0.0246,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "hallucin",
+          "llm",
+          "come",
+          "train",
+          "data",
+          "combat"
+        ],
+        "n_matched": 14821,
+        "term_doc_freq": {
+          "hallucin": 1025,
+          "llm": 10767,
+          "come": 196,
+          "train": 6729,
+          "data": 5301,
+          "combat": 30
+        }
+      },
+      "overlap_at_depth": 31,
+      "fused_from_both": 31,
+      "fused_bm25_only": 11,
+      "fused_dense_only": 8
+    },
+    "q5": {
+      "n_results": 50,
+      "latency_s": 0.0311,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "effect",
+          "post",
+          "train",
+          "method",
+          "build",
+          "domain",
+          "specif",
+          "agent"
+        ],
+        "n_matched": 15783,
+        "term_doc_freq": {
+          "effect": 6485,
+          "post": 1045,
+          "train": 6729,
+          "method": 7460,
+          "build": 1280,
+          "domain": 3197,
+          "specif": 4806,
+          "agent": 3016
+        }
+      },
+      "overlap_at_depth": 24,
+      "fused_from_both": 24,
+      "fused_bm25_only": 11,
+      "fused_dense_only": 15
+    },
+    "q6": {
+      "n_results": 50,
+      "latency_s": 0.0196,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "llm",
+          "use",
+          "generat",
+          "polit",
+          "stori",
+          "narrat",
+          "capabl",
+          "evalu"
+        ],
+        "n_matched": 16626,
+        "term_doc_freq": {
+          "llm": 10767,
+          "use": 7650,
+          "generat": 7741,
+          "polit": 154,
+          "stori": 137,
+          "narrat": 339,
+          "capabl": 4007,
+          "evalu": 8168
+        }
+      },
+      "overlap_at_depth": 27,
+      "fused_from_both": 27,
+      "fused_bm25_only": 14,
+      "fused_dense_only": 9
+    },
+    "q7": {
+      "n_results": 50,
+      "latency_s": 0.0206,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "measur",
+          "stori",
+          "link",
+          "back",
+          "real",
+          "individu",
+          "leak",
+          "privat",
+          "inform",
+          "method",
+          "reduc",
+          "re",
+          "identif",
+          "risk"
+        ],
+        "n_matched": 13520,
+        "term_doc_freq": {
+          "measur": 1429,
+          "stori": 137,
+          "link": 463,
+          "back": 184,
+          "real": 2749,
+          "individu": 809,
+          "leak": 76,
+          "privat": 147,
+          "inform": 3940,
+          "method": 7460,
+          "reduc": 2936,
+          "re": 408,
+          "identif": 312,
+          "risk": 1007
+        }
+      },
+      "overlap_at_depth": 20,
+      "fused_from_both": 20,
+      "fused_bm25_only": 13,
+      "fused_dense_only": 17
+    },
+    "q8": {
+      "n_results": 50,
+      "latency_s": 0.0182,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "knowledg",
+          "graph",
+          "combin",
+          "llm",
+          "answer",
+          "complex",
+          "multi",
+          "hop",
+          "question"
+        ],
+        "n_matched": 14992,
+        "term_doc_freq": {
+          "knowledg": 3387,
+          "graph": 1211,
+          "combin": 1784,
+          "llm": 10767,
+          "answer": 2755,
+          "complex": 3081,
+          "multi": 4235,
+          "hop": 426,
+          "question": 2854
+        }
+      },
+      "overlap_at_depth": 47,
+      "fused_from_both": 45,
+      "fused_bm25_only": 1,
+      "fused_dense_only": 4
+    },
+    "q9": {
+      "n_results": 50,
+      "latency_s": 0.0187,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "recent",
+          "techniqu",
+          "improv",
+          "knowledg",
+          "distil",
+          "larg",
+          "small",
+          "languag",
+          "model"
+        ],
+        "n_matched": 17363,
+        "term_doc_freq": {
+          "recent": 2850,
+          "techniqu": 1087,
+          "improv": 7390,
+          "knowledg": 3387,
+          "distil": 834,
+          "larg": 11353,
+          "small": 1104,
+          "languag": 13127,
+          "model": 15883
+        }
+      },
+      "overlap_at_depth": 27,
+      "fused_from_both": 27,
+      "fused_bm25_only": 11,
+      "fused_dense_only": 12
+    },
+    "q10": {
+      "n_results": 50,
+      "latency_s": 0.0178,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "reliabl",
+          "llm",
+          "automat",
+          "evalu",
+          "generat",
+          "text"
+        ],
+        "n_matched": 16141,
+        "term_doc_freq": {
+          "reliabl": 2250,
+          "llm": 10767,
+          "automat": 1219,
+          "evalu": 8168,
+          "generat": 7741,
+          "text": 3735
+        }
+      },
+      "overlap_at_depth": 15,
+      "fused_from_both": 15,
+      "fused_bm25_only": 17,
+      "fused_dense_only": 18
+    },
+    "q11": {
+      "n_results": 50,
+      "latency_s": 0.0191,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "llm",
+          "system",
+          "reli",
+          "long",
+          "context",
+          "model",
+          "versus",
+          "retriev",
+          "augment",
+          "generat",
+          "explicit",
+          "memori",
+          "mechan"
+        ],
+        "n_matched": 17664,
+        "term_doc_freq": {
+          "llm": 10767,
+          "system": 3082,
+          "reli": 2784,
+          "long": 2047,
+          "context": 3785,
+          "model": 15883,
+          "versus": 181,
+          "retriev": 2806,
+          "augment": 1975,
+          "generat": 7741,
+          "explicit": 1991,
+          "memori": 1189,
+          "mechan": 2256
+        }
+      },
+      "overlap_at_depth": 17,
+      "fused_from_both": 17,
+      "fused_bm25_only": 17,
+      "fused_dense_only": 16
+    },
+    "q12": {
+      "n_results": 50,
+      "latency_s": 0.0196,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "take",
+          "train",
+          "llm",
+          "agent",
+          "call",
+          "extern",
+          "api",
+          "reliabl"
+        ],
+        "n_matched": 15029,
+        "term_doc_freq": {
+          "take": 319,
+          "train": 6729,
+          "llm": 10767,
+          "agent": 3016,
+          "call": 878,
+          "extern": 1132,
+          "api": 232,
+          "reliabl": 2250
+        }
+      },
+      "overlap_at_depth": 25,
+      "fused_from_both": 25,
+      "fused_bm25_only": 11,
+      "fused_dense_only": 14
+    },
+    "q13": {
+      "n_results": 50,
+      "latency_s": 0.0192,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "chatbot",
+          "stop",
+          "agre",
+          "user",
+          "wrong"
+        ],
+        "n_matched": 2241,
+        "term_doc_freq": {
+          "chatbot": 90,
+          "stop": 146,
+          "agre": 54,
+          "user": 1911,
+          "wrong": 124
+        }
+      },
+      "overlap_at_depth": 14,
+      "fused_from_both": 14,
+      "fused_bm25_only": 19,
+      "fused_dense_only": 17
+    },
+    "q14": {
+      "n_results": 50,
+      "latency_s": 0.0197,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "build",
+          "strong",
+          "languag",
+          "model",
+          "languag",
+          "almost",
+          "digit",
+          "text"
+        ],
+        "n_matched": 16912,
+        "term_doc_freq": {
+          "build": 1280,
+          "strong": 2776,
+          "languag": 13127,
+          "model": 15883,
+          "almost": 104,
+          "digit": 163,
+          "text": 3735
+        }
+      },
+      "overlap_at_depth": 2,
+      "fused_from_both": 2,
+      "fused_bm25_only": 23,
+      "fused_dense_only": 25
+    },
+    "q15": {
+      "n_results": 50,
+      "latency_s": 0.0189,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "teacher",
+          "reliabl",
+          "tell",
+          "essay",
+          "written",
+          "ai"
+        ],
+        "n_matched": 3902,
+        "term_doc_freq": {
+          "teacher": 389,
+          "reliabl": 2250,
+          "tell": 40,
+          "essay": 54,
+          "written": 332,
+          "ai": 1215
+        }
+      },
+      "overlap_at_depth": 40,
+      "fused_from_both": 39,
+      "fused_bm25_only": 5,
+      "fused_dense_only": 6
+    },
+    "q16": {
+      "n_results": 50,
+      "latency_s": 0.2951,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "claim",
+          "onlin",
+          "news",
+          "verifi",
+          "automat"
+        ],
+        "n_matched": 3504,
+        "term_doc_freq": {
+          "claim": 449,
+          "onlin": 598,
+          "news": 229,
+          "verifi": 1413,
+          "automat": 1219
+        }
+      },
+      "overlap_at_depth": 43,
+      "fused_from_both": 42,
+      "fused_bm25_only": 4,
+      "fused_dense_only": 4
+    },
+    "q17": {
+      "n_results": 50,
+      "latency_s": 0.0192,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "safe",
+          "open",
+          "weight",
+          "llm",
+          "user",
+          "tri",
+          "extract",
+          "harm",
+          "content"
+        ],
+        "n_matched": 13646,
+        "term_doc_freq": {
+          "safe": 323,
+          "open": 2563,
+          "weight": 1218,
+          "llm": 10767,
+          "user": 1911,
+          "tri": 76,
+          "extract": 1395,
+          "harm": 731,
+          "content": 1710
+        }
+      },
+      "overlap_at_depth": 17,
+      "fused_from_both": 17,
+      "fused_bm25_only": 17,
+      "fused_dense_only": 16
+    },
+    "q18": {
+      "n_results": 50,
+      "latency_s": 0.0188,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "valu",
+          "llm",
+          "reflect",
+          "answer",
+          "moral",
+          "question",
+          "differ",
+          "cultur"
+        ],
+        "n_matched": 13766,
+        "term_doc_freq": {
+          "valu": 1068,
+          "llm": 10767,
+          "reflect": 1117,
+          "answer": 2755,
+          "moral": 95,
+          "question": 2854,
+          "differ": 3053,
+          "cultur": 526
+        }
+      },
+      "overlap_at_depth": 43,
+      "fused_from_both": 43,
+      "fused_bm25_only": 3,
+      "fused_dense_only": 4
+    },
+    "q19": {
+      "n_results": 50,
+      "latency_s": 0.0195,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "well",
+          "multimod",
+          "model",
+          "read",
+          "figur",
+          "scientif",
+          "paper"
+        ],
+        "n_matched": 16580,
+        "term_doc_freq": {
+          "well": 1414,
+          "multimod": 1806,
+          "model": 15883,
+          "read": 292,
+          "figur": 102,
+          "scientif": 426,
+          "paper": 3418
+        }
+      },
+      "overlap_at_depth": 14,
+      "fused_from_both": 14,
+      "fused_bm25_only": 18,
+      "fused_dense_only": 18
+    },
+    "q20": {
+      "n_results": 50,
+      "latency_s": 0.0198,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "make",
+          "step",
+          "step",
+          "mathemat",
+          "reason",
+          "llm",
+          "trustworthi"
+        ],
+        "n_matched": 13923,
+        "term_doc_freq": {
+          "make": 2401,
+          "step": 2032,
+          "mathemat": 805,
+          "reason": 5835,
+          "llm": 10767,
+          "trustworthi": 276
+        }
+      },
+      "overlap_at_depth": 28,
+      "fused_from_both": 28,
+      "fused_bm25_only": 12,
+      "fused_dense_only": 10
+    },
+    "q21": {
+      "n_results": 50,
+      "latency_s": 0.0215,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "lost",
+          "larg",
+          "languag",
+          "model",
+          "compress",
+          "run",
+          "phone"
+        ],
+        "n_matched": 16658,
+        "term_doc_freq": {
+          "lost": 108,
+          "larg": 11353,
+          "languag": 13127,
+          "model": 15883,
+          "compress": 679,
+          "run": 256,
+          "phone": 20
+        }
+      },
+      "overlap_at_depth": 17,
+      "fused_from_both": 17,
+      "fused_bm25_only": 18,
+      "fused_dense_only": 15
+    },
+    "q22": {
+      "n_results": 50,
+      "latency_s": 0.0237,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "llm",
+          "replac",
+          "human",
+          "particip",
+          "social",
+          "scienc",
+          "survey"
+        ],
+        "n_matched": 12639,
+        "term_doc_freq": {
+          "llm": 10767,
+          "replac": 345,
+          "human": 3956,
+          "particip": 220,
+          "social": 832,
+          "scienc": 509,
+          "survey": 388
+        }
+      },
+      "overlap_at_depth": 13,
+      "fused_from_both": 13,
+      "fused_bm25_only": 18,
+      "fused_dense_only": 19
+    },
+    "q23": {
+      "n_results": 50,
+      "latency_s": 0.0232,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "trust",
+          "leaderboard",
+          "score",
+          "modern",
+          "llm"
+        ],
+        "n_matched": 11932,
+        "term_doc_freq": {
+          "trust": 238,
+          "leaderboard": 90,
+          "score": 2172,
+          "modern": 464,
+          "llm": 10767
+        }
+      },
+      "overlap_at_depth": 8,
+      "fused_from_both": 8,
+      "fused_bm25_only": 21,
+      "fused_dense_only": 21
+    },
+    "q24": {
+      "n_results": 50,
+      "latency_s": 0.0187,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "best",
+          "way",
+          "build",
+          "voic",
+          "assist",
+          "top",
+          "languag",
+          "model"
+        ],
+        "n_matched": 16691,
+        "term_doc_freq": {
+          "best": 1071,
+          "way": 618,
+          "build": 1280,
+          "voic": 117,
+          "assist": 631,
+          "top": 509,
+          "languag": 13127,
+          "model": 15883
+        }
+      },
+      "overlap_at_depth": 19,
+      "fused_from_both": 19,
+      "fused_bm25_only": 15,
+      "fused_dense_only": 16
+    },
+    "q25": {
+      "n_results": 50,
+      "latency_s": 0.0189,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "hospit",
+          "safe",
+          "use",
+          "llm",
+          "draft",
+          "discharg",
+          "summari"
+        ],
+        "n_matched": 13772,
+        "term_doc_freq": {
+          "hospit": 30,
+          "safe": 323,
+          "use": 7650,
+          "llm": 10767,
+          "draft": 195,
+          "discharg": 27,
+          "summari": 339
+        }
+      },
+      "overlap_at_depth": 17,
+      "fused_from_both": 17,
+      "fused_bm25_only": 16,
+      "fused_dense_only": 17
+    },
+    "q26": {
+      "n_results": 50,
+      "latency_s": 0.0196,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "outdat",
+          "fact",
+          "insid",
+          "llm",
+          "correct",
+          "retrain"
+        ],
+        "n_matched": 11817,
+        "term_doc_freq": {
+          "outdat": 109,
+          "fact": 720,
+          "insid": 70,
+          "llm": 10767,
+          "correct": 1892,
+          "retrain": 282
+        }
+      },
+      "overlap_at_depth": 16,
+      "fused_from_both": 16,
+      "fused_bm25_only": 17,
+      "fused_dense_only": 17
+    },
+    "q27": {
+      "n_results": 50,
+      "latency_s": 0.0184,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "well",
+          "languag",
+          "technolog",
+          "serv",
+          "bilingu",
+          "speaker",
+          "mix",
+          "languag",
+          "mid",
+          "sentenc"
+        ],
+        "n_matched": 14094,
+        "term_doc_freq": {
+          "well": 1414,
+          "languag": 13127,
+          "technolog": 199,
+          "serv": 867,
+          "bilingu": 139,
+          "speaker": 349,
+          "mix": 434,
+          "mid": 123,
+          "sentenc": 767
+        }
+      },
+      "overlap_at_depth": 21,
+      "fused_from_both": 21,
+      "fused_bm25_only": 12,
+      "fused_dense_only": 17
+    },
+    "q28": {
+      "n_results": 50,
+      "latency_s": 0.0211,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "machin",
+          "translat",
+          "evalu",
+          "now",
+          "llm",
+          "translat",
+          "well"
+        ],
+        "n_matched": 14387,
+        "term_doc_freq": {
+          "machin": 788,
+          "translat": 1071,
+          "evalu": 8168,
+          "now": 111,
+          "llm": 10767,
+          "well": 1414
+        }
+      },
+      "overlap_at_depth": 33,
+      "fused_from_both": 33,
+      "fused_bm25_only": 11,
+      "fused_dense_only": 6
+    },
+    "q29": {
+      "n_results": 50,
+      "latency_s": 0.0186,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "happen",
+          "retriev",
+          "document",
+          "contradict",
+          "llm",
+          "alreadi",
+          "believ"
+        ],
+        "n_matched": 12363,
+        "term_doc_freq": {
+          "happen": 45,
+          "retriev": 2806,
+          "document": 1302,
+          "contradict": 141,
+          "llm": 10767,
+          "alreadi": 218,
+          "believ": 124
+        }
+      },
+      "overlap_at_depth": 9,
+      "fused_from_both": 9,
+      "fused_bm25_only": 20,
+      "fused_dense_only": 21
+    },
+    "q30": {
+      "n_results": 50,
+      "latency_s": 0.0178,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "trust",
+          "llm",
+          "answer"
+        ],
+        "n_matched": 11900,
+        "term_doc_freq": {
+          "trust": 238,
+          "llm": 10767,
+          "answer": 2755
+        }
+      },
+      "overlap_at_depth": 9,
+      "fused_from_both": 9,
+      "fused_bm25_only": 19,
+      "fused_dense_only": 22
+    },
+    "q31": {
+      "n_results": 50,
+      "latency_s": 0.0188,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "group",
+          "llm",
+          "agent",
+          "reason",
+          "better",
+          "singl",
+          "model"
+        ],
+        "n_matched": 17396,
+        "term_doc_freq": {
+          "group": 817,
+          "llm": 10767,
+          "agent": 3016,
+          "reason": 5835,
+          "better": 1491,
+          "singl": 2137,
+          "model": 15883
+        }
+      },
+      "overlap_at_depth": 17,
+      "fused_from_both": 17,
+      "fused_bm25_only": 18,
+      "fused_dense_only": 15
+    },
+    "q32": {
+      "n_results": 50,
+      "latency_s": 0.0186,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "llm",
+          "safe",
+          "give",
+          "emot",
+          "support",
+          "peopl",
+          "distress"
+        ],
+        "n_matched": 12012,
+        "term_doc_freq": {
+          "llm": 10767,
+          "safe": 323,
+          "give": 161,
+          "emot": 422,
+          "support": 2063,
+          "peopl": 152,
+          "distress": 32
+        }
+      },
+      "overlap_at_depth": 34,
+      "fused_from_both": 34,
+      "fused_bm25_only": 7,
+      "fused_dense_only": 9
+    },
+    "q33": {
+      "n_results": 50,
+      "latency_s": 0.0202,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "llm",
+          "replac",
+          "crowdwork",
+          "build",
+          "nlp",
+          "dataset"
+        ],
+        "n_matched": 13731,
+        "term_doc_freq": {
+          "llm": 10767,
+          "replac": 345,
+          "crowdwork": 9,
+          "build": 1280,
+          "nlp": 847,
+          "dataset": 5938
+        }
+      },
+      "overlap_at_depth": 7,
+      "fused_from_both": 7,
+      "fused_bm25_only": 22,
+      "fused_dense_only": 21
+    },
+    "q34": {
+      "n_results": 50,
+      "latency_s": 0.0233,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "align",
+          "algorithm",
+          "lab",
+          "use",
+          "learn",
+          "human",
+          "prefer"
+        ],
+        "n_matched": 13408,
+        "term_doc_freq": {
+          "align": 3886,
+          "algorithm": 771,
+          "lab": 164,
+          "use": 7650,
+          "learn": 4571,
+          "human": 3956,
+          "prefer": 1468
+        }
+      },
+      "overlap_at_depth": 39,
+      "fused_from_both": 38,
+      "fused_bm25_only": 5,
+      "fused_dense_only": 7
+    },
+    "q35": {
+      "n_results": 50,
+      "latency_s": 0.0182,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "close",
+          "llm",
+          "work",
+          "junior",
+          "lawyer"
+        ],
+        "n_matched": 12689,
+        "term_doc_freq": {
+          "close": 1059,
+          "llm": 10767,
+          "work": 4151,
+          "junior": 6,
+          "lawyer": 13
+        }
+      },
+      "overlap_at_depth": 5,
+      "fused_from_both": 5,
+      "fused_bm25_only": 23,
+      "fused_dense_only": 22
+    },
+    "q36": {
+      "n_results": 50,
+      "latency_s": 0.0183,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "llm",
+          "understand",
+          "order",
+          "durat",
+          "event",
+          "describ",
+          "text"
+        ],
+        "n_matched": 13813,
+        "term_doc_freq": {
+          "llm": 10767,
+          "understand": 2793,
+          "order": 709,
+          "durat": 65,
+          "event": 474,
+          "describ": 188,
+          "text": 3735
+        }
+      },
+      "overlap_at_depth": 12,
+      "fused_from_both": 12,
+      "fused_bm25_only": 18,
+      "fused_dense_only": 20
+    },
+    "q37": {
+      "n_results": 50,
+      "latency_s": 0.0196,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "insid",
+          "transform",
+          "languag",
+          "model",
+          "store",
+          "know"
+        ],
+        "n_matched": 16478,
+        "term_doc_freq": {
+          "insid": 70,
+          "transform": 1266,
+          "languag": 13127,
+          "model": 15883,
+          "store": 271,
+          "know": 174
+        }
+      },
+      "overlap_at_depth": 8,
+      "fused_from_both": 8,
+      "fused_bm25_only": 20,
+      "fused_dense_only": 22
+    },
+    "q38": {
+      "n_results": 50,
+      "latency_s": 0.0212,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "happen",
+          "languag",
+          "model",
+          "train",
+          "text",
+          "written",
+          "languag",
+          "model"
+        ],
+        "n_matched": 16928,
+        "term_doc_freq": {
+          "happen": 45,
+          "languag": 13127,
+          "model": 15883,
+          "train": 6729,
+          "text": 3735,
+          "written": 332
+        }
+      },
+      "overlap_at_depth": 9,
+      "fused_from_both": 9,
+      "fused_bm25_only": 20,
+      "fused_dense_only": 21
+    },
+    "q39": {
+      "n_results": 50,
+      "latency_s": 0.0233,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "platform",
+          "use",
+          "llm",
+          "moder",
+          "hate",
+          "content",
+          "languag"
+        ],
+        "n_matched": 16439,
+        "term_doc_freq": {
+          "platform": 285,
+          "use": 7650,
+          "llm": 10767,
+          "moder": 265,
+          "hate": 110,
+          "content": 1710,
+          "languag": 13127
+        }
+      },
+      "overlap_at_depth": 61,
+      "fused_from_both": 50,
+      "fused_bm25_only": 0,
+      "fused_dense_only": 0
+    },
+    "q40": {
+      "n_results": 50,
+      "latency_s": 0.0196,
+      "tokenizer_version": "v2",
+      "dense_model": "BAAI/bge-base-en-v1.5",
+      "rrf_k": 60,
+      "depth": 100,
+      "bm25": {
+        "query_tokens": [
+          "vision",
+          "languag",
+          "model",
+          "describ",
+          "object",
+          "imag"
+        ],
+        "n_matched": 16541,
+        "term_doc_freq": {
+          "vision": 1280,
+          "languag": 13127,
+          "model": 15883,
+          "describ": 188,
+          "object": 1412,
+          "imag": 1283
+        }
+      },
+      "overlap_at_depth": 23,
+      "fused_from_both": 23,
+      "fused_bm25_only": 13,
+      "fused_dense_only": 14
+    }
+  },
+  "created_at": "2026-11-23T17:34:02+00:00"
+}

@@ -1,0 +1,1099 @@
+{
+  "run_id": "20261123-123824-agent-k50",
+  "system": "agent",
+  "k": 50,
+  "judge_model": "gpt-5.6-luna",
+  "reasoning_effort": "low",
+  "prompt_version": "v1",
+  "relevant_threshold": 4,
+  "queries": {
+    "q1": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 1,
+        "4": 14,
+        "3": 17,
+        "2": 14,
+        "1": 4
+      },
+      "mean_score": 2.88,
+      "n_relevant(>=4)": 15,
+      "P@10": 0.6,
+      "P@20": 0.55,
+      "P@50": 0.3,
+      "question": "How is structural similarity in stories captured? How is it defined and what embedding models excel at it?",
+      "n_cached": 36,
+      "usage": {
+        "input_tokens": 10514,
+        "cached_tokens": 0,
+        "output_tokens": 2021,
+        "reasoning_tokens": 755,
+        "calls": 14,
+        "cost_usd": 0.004528
+      },
+      "elapsed_s": 3.6
+    },
+    "q2": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 26,
+        "4": 22,
+        "3": 2,
+        "2": 0,
+        "1": 0
+      },
+      "mean_score": 4.48,
+      "n_relevant(>=4)": 48,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 0.96,
+      "question": "How do we build personalized agentic systems for education? How do we evaluate them?",
+      "n_cached": 50,
+      "usage": {
+        "input_tokens": 0,
+        "cached_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "calls": 0,
+        "cost_usd": 0.0
+      },
+      "elapsed_s": 0.0
+    },
+    "q3": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 38,
+        "4": 12,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "mean_score": 4.76,
+      "n_relevant(>=4)": 50,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 1.0,
+      "question": "How do we build deep research agents? How do we evaluate every component of deep research agents?",
+      "n_cached": 50,
+      "usage": {
+        "input_tokens": 0,
+        "cached_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "calls": 0,
+        "cost_usd": 0.0
+      },
+      "elapsed_s": 0.0
+    },
+    "q4": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 33,
+        "4": 16,
+        "3": 1,
+        "2": 0,
+        "1": 0
+      },
+      "mean_score": 4.64,
+      "n_relevant(>=4)": 49,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 0.98,
+      "question": "Where do hallucinations in LLMs come from? Is it in the training data? How can we combat it?",
+      "n_cached": 49,
+      "usage": {
+        "input_tokens": 691,
+        "cached_tokens": 0,
+        "output_tokens": 109,
+        "reasoning_tokens": 0,
+        "calls": 1,
+        "cost_usd": 0.000269
+      },
+      "elapsed_s": 2.0
+    },
+    "q5": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 33,
+        "4": 17,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "mean_score": 4.66,
+      "n_relevant(>=4)": 50,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 1.0,
+      "question": "What are the most effective post-training methods for building domain-specific agents?",
+      "n_cached": 50,
+      "usage": {
+        "input_tokens": 0,
+        "cached_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "calls": 0,
+        "cost_usd": 0.0
+      },
+      "elapsed_s": 0.0
+    },
+    "q6": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 9,
+        "4": 19,
+        "3": 17,
+        "2": 4,
+        "1": 1
+      },
+      "mean_score": 3.62,
+      "n_relevant(>=4)": 28,
+      "P@10": 1.0,
+      "P@20": 0.85,
+      "P@50": 0.56,
+      "question": "How are LLMs used to generate political stories or narratives, and how is their capability evaluated?",
+      "n_cached": 36,
+      "usage": {
+        "input_tokens": 10890,
+        "cached_tokens": 0,
+        "output_tokens": 1772,
+        "reasoning_tokens": 308,
+        "calls": 14,
+        "cost_usd": 0.004304
+      },
+      "elapsed_s": 3.6
+    },
+    "q7": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 17,
+        "4": 27,
+        "3": 2,
+        "2": 2,
+        "1": 2
+      },
+      "mean_score": 4.1,
+      "n_relevant(>=4)": 44,
+      "P@10": 1.0,
+      "P@20": 0.9,
+      "P@50": 0.88,
+      "question": "How do we measure whether stories can be linked back to real individuals or leak private information, and what methods reduce this re-identification risk?",
+      "n_cached": 42,
+      "usage": {
+        "input_tokens": 6057,
+        "cached_tokens": 0,
+        "output_tokens": 1049,
+        "reasoning_tokens": 250,
+        "calls": 8,
+        "cost_usd": 0.00247
+      },
+      "elapsed_s": 2.9
+    },
+    "q8": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 47,
+        "4": 2,
+        "3": 1,
+        "2": 0,
+        "1": 0
+      },
+      "mean_score": 4.92,
+      "n_relevant(>=4)": 49,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 0.98,
+      "question": "How can knowledge graphs be combined with LLMs to answer complex multi-hop questions?",
+      "n_cached": 50,
+      "usage": {
+        "input_tokens": 0,
+        "cached_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "calls": 0,
+        "cost_usd": 0.0
+      },
+      "elapsed_s": 0.0
+    },
+    "q9": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 48,
+        "4": 2,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "mean_score": 4.96,
+      "n_relevant(>=4)": 50,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 1.0,
+      "question": "What recent techniques improve knowledge distillation from large to small language models?",
+      "n_cached": 50,
+      "usage": {
+        "input_tokens": 0,
+        "cached_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "calls": 0,
+        "cost_usd": 0.0
+      },
+      "elapsed_s": 0.0
+    },
+    "q10": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 47,
+        "4": 2,
+        "3": 1,
+        "2": 0,
+        "1": 0
+      },
+      "mean_score": 4.92,
+      "n_relevant(>=4)": 49,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 0.98,
+      "question": "How reliable are LLMs as automatic evaluators of generated text",
+      "n_cached": 50,
+      "usage": {
+        "input_tokens": 0,
+        "cached_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "calls": 0,
+        "cost_usd": 0.0
+      },
+      "elapsed_s": 0.0
+    },
+    "q11": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 7,
+        "4": 42,
+        "3": 1,
+        "2": 0,
+        "1": 0
+      },
+      "mean_score": 4.12,
+      "n_relevant(>=4)": 49,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 0.98,
+      "question": "When should LLM systems rely on long-context models versus retrieval-augmented generation or explicit memory mechanisms?",
+      "n_cached": 50,
+      "usage": {
+        "input_tokens": 0,
+        "cached_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "calls": 0,
+        "cost_usd": 0.0
+      },
+      "elapsed_s": 0.0
+    },
+    "q12": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 33,
+        "4": 16,
+        "3": 1,
+        "2": 0,
+        "1": 0
+      },
+      "mean_score": 4.64,
+      "n_relevant(>=4)": 49,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 0.98,
+      "question": "What does it take to train an LLM agent that calls external APIs reliably?",
+      "n_cached": 39,
+      "usage": {
+        "input_tokens": 8528,
+        "cached_tokens": 0,
+        "output_tokens": 1340,
+        "reasoning_tokens": 0,
+        "calls": 11,
+        "cost_usd": 0.003314
+      },
+      "elapsed_s": 2.5
+    },
+    "q13": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 25,
+        "4": 15,
+        "3": 8,
+        "2": 2,
+        "1": 0
+      },
+      "mean_score": 4.26,
+      "n_relevant(>=4)": 40,
+      "P@10": 0.9,
+      "P@20": 0.95,
+      "P@50": 0.8,
+      "question": "How can a chatbot be stopped from agreeing with users who are wrong?",
+      "n_cached": 28,
+      "usage": {
+        "input_tokens": 16553,
+        "cached_tokens": 0,
+        "output_tokens": 2849,
+        "reasoning_tokens": 554,
+        "calls": 22,
+        "cost_usd": 0.006729
+      },
+      "elapsed_s": 5.3
+    },
+    "q14": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 11,
+        "4": 32,
+        "3": 6,
+        "2": 1,
+        "1": 0
+      },
+      "mean_score": 4.06,
+      "n_relevant(>=4)": 43,
+      "P@10": 1.0,
+      "P@20": 0.9,
+      "P@50": 0.86,
+      "question": "How would you build a strong language model for a language with almost no digital text?",
+      "n_cached": 29,
+      "usage": {
+        "input_tokens": 15626,
+        "cached_tokens": 0,
+        "output_tokens": 2532,
+        "reasoning_tokens": 104,
+        "calls": 21,
+        "cost_usd": 0.006164
+      },
+      "elapsed_s": 4.1
+    },
+    "q15": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 4,
+        "4": 11,
+        "3": 5,
+        "2": 13,
+        "1": 17
+      },
+      "mean_score": 2.44,
+      "n_relevant(>=4)": 15,
+      "P@10": 0.6,
+      "P@20": 0.4,
+      "P@50": 0.3,
+      "question": "Can a teacher reliably tell whether an essay was written by AI?",
+      "n_cached": 14,
+      "usage": {
+        "input_tokens": 27377,
+        "cached_tokens": 0,
+        "output_tokens": 3694,
+        "reasoning_tokens": 616,
+        "calls": 36,
+        "cost_usd": 0.009908
+      },
+      "elapsed_s": 5.1
+    },
+    "q16": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 35,
+        "4": 13,
+        "3": 2,
+        "2": 0,
+        "1": 0
+      },
+      "mean_score": 4.66,
+      "n_relevant(>=4)": 48,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 0.96,
+      "question": "How can claims in online news be verified automatically?",
+      "n_cached": 39,
+      "usage": {
+        "input_tokens": 8188,
+        "cached_tokens": 0,
+        "output_tokens": 1514,
+        "reasoning_tokens": 332,
+        "calls": 11,
+        "cost_usd": 0.003454
+      },
+      "elapsed_s": 3.1
+    },
+    "q17": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 30,
+        "4": 20,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "mean_score": 4.6,
+      "n_relevant(>=4)": 50,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 1.0,
+      "question": "How safe are open-weight LLMs against users trying to extract harmful content?",
+      "n_cached": 33,
+      "usage": {
+        "input_tokens": 12952,
+        "cached_tokens": 0,
+        "output_tokens": 2048,
+        "reasoning_tokens": 96,
+        "calls": 17,
+        "cost_usd": 0.005048
+      },
+      "elapsed_s": 3.5
+    },
+    "q18": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 14,
+        "4": 29,
+        "3": 5,
+        "2": 2,
+        "1": 0
+      },
+      "mean_score": 4.1,
+      "n_relevant(>=4)": 43,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 0.86,
+      "question": "Whose values do LLMs reflect when answering moral questions in different cultures?",
+      "n_cached": 35,
+      "usage": {
+        "input_tokens": 11639,
+        "cached_tokens": 0,
+        "output_tokens": 2130,
+        "reasoning_tokens": 421,
+        "calls": 15,
+        "cost_usd": 0.004884
+      },
+      "elapsed_s": 3.4
+    },
+    "q19": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 14,
+        "4": 18,
+        "3": 12,
+        "2": 5,
+        "1": 1
+      },
+      "mean_score": 3.78,
+      "n_relevant(>=4)": 32,
+      "P@10": 1.0,
+      "P@20": 0.95,
+      "P@50": 0.64,
+      "question": "How well can multimodal models read the figures of a scientific paper?",
+      "n_cached": 21,
+      "usage": {
+        "input_tokens": 22186,
+        "cached_tokens": 0,
+        "output_tokens": 4025,
+        "reasoning_tokens": 1018,
+        "calls": 29,
+        "cost_usd": 0.009267
+      },
+      "elapsed_s": 5.3
+    },
+    "q20": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 33,
+        "4": 17,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "mean_score": 4.66,
+      "n_relevant(>=4)": 50,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 1.0,
+      "question": "What makes step-by-step mathematical reasoning in LLMs trustworthy?",
+      "n_cached": 36,
+      "usage": {
+        "input_tokens": 10437,
+        "cached_tokens": 0,
+        "output_tokens": 1912,
+        "reasoning_tokens": 323,
+        "calls": 14,
+        "cost_usd": 0.004382
+      },
+      "elapsed_s": 3.4
+    },
+    "q21": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 20,
+        "4": 28,
+        "3": 1,
+        "2": 1,
+        "1": 0
+      },
+      "mean_score": 4.34,
+      "n_relevant(>=4)": 48,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 0.96,
+      "question": "What is lost when a large language model is compressed to run on a phone?",
+      "n_cached": 26,
+      "usage": {
+        "input_tokens": 18652,
+        "cached_tokens": 0,
+        "output_tokens": 3192,
+        "reasoning_tokens": 367,
+        "calls": 24,
+        "cost_usd": 0.007561
+      },
+      "elapsed_s": 5.6
+    },
+    "q22": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 20,
+        "4": 21,
+        "3": 7,
+        "2": 2,
+        "1": 0
+      },
+      "mean_score": 4.18,
+      "n_relevant(>=4)": 41,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 0.82,
+      "question": "Can LLMs replace human participants in social science surveys?",
+      "n_cached": 32,
+      "usage": {
+        "input_tokens": 13424,
+        "cached_tokens": 0,
+        "output_tokens": 2558,
+        "reasoning_tokens": 493,
+        "calls": 18,
+        "cost_usd": 0.005754
+      },
+      "elapsed_s": 4.8
+    },
+    "q23": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 40,
+        "4": 10,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "mean_score": 4.8,
+      "n_relevant(>=4)": 50,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 1.0,
+      "question": "How much can we trust the leaderboard scores of modern LLMs?",
+      "n_cached": 34,
+      "usage": {
+        "input_tokens": 12049,
+        "cached_tokens": 0,
+        "output_tokens": 2044,
+        "reasoning_tokens": 250,
+        "calls": 16,
+        "cost_usd": 0.004863
+      },
+      "elapsed_s": 3.1
+    },
+    "q24": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 16,
+        "4": 28,
+        "3": 6,
+        "2": 0,
+        "1": 0
+      },
+      "mean_score": 4.2,
+      "n_relevant(>=4)": 44,
+      "P@10": 1.0,
+      "P@20": 0.9,
+      "P@50": 0.88,
+      "question": "What is the best way to build a voice assistant on top of language models?",
+      "n_cached": 44,
+      "usage": {
+        "input_tokens": 4833,
+        "cached_tokens": 0,
+        "output_tokens": 745,
+        "reasoning_tokens": 0,
+        "calls": 6,
+        "cost_usd": 0.001861
+      },
+      "elapsed_s": 2.2
+    },
+    "q25": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 5,
+        "4": 21,
+        "3": 15,
+        "2": 9,
+        "1": 0
+      },
+      "mean_score": 3.44,
+      "n_relevant(>=4)": 26,
+      "P@10": 0.7,
+      "P@20": 0.7,
+      "P@50": 0.52,
+      "question": "How can hospitals safely use LLMs to draft discharge summaries?",
+      "n_cached": 18,
+      "usage": {
+        "input_tokens": 24593,
+        "cached_tokens": 0,
+        "output_tokens": 3507,
+        "reasoning_tokens": 198,
+        "calls": 32,
+        "cost_usd": 0.009127
+      },
+      "elapsed_s": 6.4
+    },
+    "q26": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 44,
+        "4": 6,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "mean_score": 4.88,
+      "n_relevant(>=4)": 50,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 1.0,
+      "question": "How can outdated facts inside an LLM be corrected without retraining it?",
+      "n_cached": 41,
+      "usage": {
+        "input_tokens": 6827,
+        "cached_tokens": 0,
+        "output_tokens": 988,
+        "reasoning_tokens": 0,
+        "calls": 9,
+        "cost_usd": 0.002551
+      },
+      "elapsed_s": 2.2
+    },
+    "q27": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 26,
+        "4": 12,
+        "3": 7,
+        "2": 5,
+        "1": 0
+      },
+      "mean_score": 4.18,
+      "n_relevant(>=4)": 38,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 0.76,
+      "question": "How well do language technologies serve bilingual speakers who mix languages mid-sentence?",
+      "n_cached": 35,
+      "usage": {
+        "input_tokens": 11194,
+        "cached_tokens": 0,
+        "output_tokens": 1633,
+        "reasoning_tokens": 103,
+        "calls": 15,
+        "cost_usd": 0.004198
+      },
+      "elapsed_s": 3.4
+    },
+    "q28": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 36,
+        "4": 12,
+        "3": 2,
+        "2": 0,
+        "1": 0
+      },
+      "mean_score": 4.68,
+      "n_relevant(>=4)": 48,
+      "P@10": 1.0,
+      "P@20": 0.95,
+      "P@50": 0.96,
+      "question": "How should machine translation be evaluated now that LLMs translate well?",
+      "n_cached": 45,
+      "usage": {
+        "input_tokens": 3763,
+        "cached_tokens": 0,
+        "output_tokens": 637,
+        "reasoning_tokens": 0,
+        "calls": 5,
+        "cost_usd": 0.001517
+      },
+      "elapsed_s": 2.5
+    },
+    "q29": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 32,
+        "4": 11,
+        "3": 7,
+        "2": 0,
+        "1": 0
+      },
+      "mean_score": 4.5,
+      "n_relevant(>=4)": 43,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 0.86,
+      "question": "What happens when retrieved documents contradict what an LLM already believes?",
+      "n_cached": 27,
+      "usage": {
+        "input_tokens": 17445,
+        "cached_tokens": 0,
+        "output_tokens": 2910,
+        "reasoning_tokens": 475,
+        "calls": 23,
+        "cost_usd": 0.006981
+      },
+      "elapsed_s": 4.3
+    },
+    "q30": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 45,
+        "4": 5,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "mean_score": 4.9,
+      "n_relevant(>=4)": 50,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 1.0,
+      "question": "When should we trust an LLM's answer?",
+      "n_cached": 33,
+      "usage": {
+        "input_tokens": 12592,
+        "cached_tokens": 0,
+        "output_tokens": 1908,
+        "reasoning_tokens": 0,
+        "calls": 17,
+        "cost_usd": 0.004808
+      },
+      "elapsed_s": 7.2
+    },
+    "q31": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 33,
+        "4": 16,
+        "3": 1,
+        "2": 0,
+        "1": 0
+      },
+      "mean_score": 4.64,
+      "n_relevant(>=4)": 49,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 0.98,
+      "question": "Do groups of LLM agents reason better than a single model?",
+      "n_cached": 44,
+      "usage": {
+        "input_tokens": 4469,
+        "cached_tokens": 0,
+        "output_tokens": 727,
+        "reasoning_tokens": 82,
+        "calls": 6,
+        "cost_usd": 0.001766
+      },
+      "elapsed_s": 3.4
+    },
+    "q32": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 20,
+        "4": 25,
+        "3": 4,
+        "2": 1,
+        "1": 0
+      },
+      "mean_score": 4.28,
+      "n_relevant(>=4)": 45,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 0.9,
+      "question": "Can LLMs safely give emotional support to people in distress?",
+      "n_cached": 41,
+      "usage": {
+        "input_tokens": 6995,
+        "cached_tokens": 0,
+        "output_tokens": 1075,
+        "reasoning_tokens": 0,
+        "calls": 9,
+        "cost_usd": 0.002689
+      },
+      "elapsed_s": 2.4
+    },
+    "q33": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 17,
+        "4": 24,
+        "3": 6,
+        "2": 3,
+        "1": 0
+      },
+      "mean_score": 4.1,
+      "n_relevant(>=4)": 41,
+      "P@10": 1.0,
+      "P@20": 0.9,
+      "P@50": 0.82,
+      "question": "Can LLMs replace crowdworkers for building NLP datasets?",
+      "n_cached": 31,
+      "usage": {
+        "input_tokens": 14311,
+        "cached_tokens": 0,
+        "output_tokens": 2519,
+        "reasoning_tokens": 375,
+        "calls": 19,
+        "cost_usd": 0.005885
+      },
+      "elapsed_s": 4.2
+    },
+    "q34": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 38,
+        "4": 12,
+        "3": 0,
+        "2": 0,
+        "1": 0
+      },
+      "mean_score": 4.76,
+      "n_relevant(>=4)": 50,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 1.0,
+      "question": "Which alignment algorithm should a lab use to learn from human preferences?",
+      "n_cached": 43,
+      "usage": {
+        "input_tokens": 5191,
+        "cached_tokens": 0,
+        "output_tokens": 925,
+        "reasoning_tokens": 155,
+        "calls": 7,
+        "cost_usd": 0.002148
+      },
+      "elapsed_s": 2.6
+    },
+    "q35": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 15,
+        "4": 32,
+        "3": 3,
+        "2": 0,
+        "1": 0
+      },
+      "mean_score": 4.24,
+      "n_relevant(>=4)": 47,
+      "P@10": 0.9,
+      "P@20": 0.95,
+      "P@50": 0.94,
+      "question": "How close are LLMs to doing the work of a junior lawyer?",
+      "n_cached": 37,
+      "usage": {
+        "input_tokens": 9728,
+        "cached_tokens": 0,
+        "output_tokens": 1818,
+        "reasoning_tokens": 352,
+        "calls": 13,
+        "cost_usd": 0.004127
+      },
+      "elapsed_s": 4.1
+    },
+    "q36": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 17,
+        "4": 22,
+        "3": 5,
+        "2": 6,
+        "1": 0
+      },
+      "mean_score": 4.0,
+      "n_relevant(>=4)": 39,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 0.78,
+      "question": "Do LLMs understand the order and duration of events described in text?",
+      "n_cached": 27,
+      "usage": {
+        "input_tokens": 17450,
+        "cached_tokens": 0,
+        "output_tokens": 2739,
+        "reasoning_tokens": 571,
+        "calls": 23,
+        "cost_usd": 0.006777
+      },
+      "elapsed_s": 3.7
+    },
+    "q37": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 31,
+        "4": 13,
+        "3": 6,
+        "2": 0,
+        "1": 0
+      },
+      "mean_score": 4.5,
+      "n_relevant(>=4)": 44,
+      "P@10": 0.9,
+      "P@20": 0.9,
+      "P@50": 0.88,
+      "question": "Where inside a transformer does a language model store what it knows?",
+      "n_cached": 44,
+      "usage": {
+        "input_tokens": 4495,
+        "cached_tokens": 0,
+        "output_tokens": 733,
+        "reasoning_tokens": 97,
+        "calls": 6,
+        "cost_usd": 0.001779
+      },
+      "elapsed_s": 22.9
+    },
+    "q38": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 21,
+        "4": 11,
+        "3": 12,
+        "2": 5,
+        "1": 1
+      },
+      "mean_score": 3.92,
+      "n_relevant(>=4)": 32,
+      "P@10": 1.0,
+      "P@20": 0.9,
+      "P@50": 0.64,
+      "question": "What happens when language models are trained on text written by other language models?",
+      "n_cached": 30,
+      "usage": {
+        "input_tokens": 15480,
+        "cached_tokens": 0,
+        "output_tokens": 3417,
+        "reasoning_tokens": 1251,
+        "calls": 20,
+        "cost_usd": 0.007196
+      },
+      "elapsed_s": 4.9
+    },
+    "q39": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 12,
+        "4": 34,
+        "3": 4,
+        "2": 0,
+        "1": 0
+      },
+      "mean_score": 4.16,
+      "n_relevant(>=4)": 46,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 0.92,
+      "question": "How can platforms use LLMs to moderate hateful content in many languages?",
+      "n_cached": 43,
+      "usage": {
+        "input_tokens": 5138,
+        "cached_tokens": 0,
+        "output_tokens": 911,
+        "reasoning_tokens": 145,
+        "calls": 7,
+        "cost_usd": 0.002121
+      },
+      "elapsed_s": 3.3
+    },
+    "q40": {
+      "n_judged": 50,
+      "n_errors": 0,
+      "score_dist": {
+        "5": 41,
+        "4": 5,
+        "3": 3,
+        "2": 1,
+        "1": 0
+      },
+      "mean_score": 4.72,
+      "n_relevant(>=4)": 46,
+      "P@10": 1.0,
+      "P@20": 1.0,
+      "P@50": 0.92,
+      "question": "Why do vision-language models describe objects that are not in the image?",
+      "n_cached": 39,
+      "usage": {
+        "input_tokens": 8024,
+        "cached_tokens": 0,
+        "output_tokens": 1224,
+        "reasoning_tokens": 76,
+        "calls": 11,
+        "cost_usd": 0.003074
+      },
+      "elapsed_s": 3.2
+    }
+  },
+  "total_usage": {
+    "input_tokens": 378291,
+    "cached_tokens": 0,
+    "output_tokens": 63205,
+    "reasoning_tokens": 9767,
+    "calls": 499,
+    "cost_usd": 0.151504
+  }
+}

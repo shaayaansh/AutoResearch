@@ -1,5 +1,8 @@
 # AutoResearch v2 — LLM planner: aspect decomposition + HyDE
 
+> **Update: 40-question eval (2026-11-23).** Re-evaluated with all versions on the expanded eval set (q1–q40, 29 new implicit multi-aspect questions): P@10 0.930 · P@50 0.806 · R@50 0.545 · nDCG@50 0.878. The original v2 prompt was not re-run; v2.1 (same design, revised prompt) stands in for it on the 40-question set. Full comparison: [`eval_40_results.md`](eval_40_results.md).
+<!-- ## Update: 40-question eval -->
+
 v2 is the first version with an **LLM inside the system**. A planner splits the research question
 into aspects and writes, for each aspect, a keyword query for BM25 and a hypothetical abstract
 (HyDE) for dense search. Each aspect runs its own hybrid search; the aspect lists are merged

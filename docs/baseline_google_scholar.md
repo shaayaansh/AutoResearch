@@ -1,5 +1,7 @@
 # External baseline: Google Scholar (top 10)
 
+> **Note (2026-11-23):** this baseline covers only q1–q11 and was not extended to the 40-question set (Google Scholar collection was manual and is discontinued). See [`eval_40_results.md`](eval_40_results.md) for the current comparison of all versions.
+
 How does the system compare with what a researcher gets by typing the same question into
 Google Scholar? Every system's **top 10** is graded by the same LLM judge with the same rubric.
 No pooling, no recall: each system is scored only on its own results.
